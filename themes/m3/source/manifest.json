@@ -1,0 +1,17 @@
+{
+  "name"              : "the unique space of ArLxn",
+  "short_name"        : "unique space",
+  "description"       : "the unique space of ArLxn",
+  "start_url"         : "/",
+  "display"           : "standalone",
+  "orientation"       : "any",
+  "background_color"  : "#3F51B5",
+  "theme_color"       : "#3F51B5",
+  "icons": [
+    {
+      "src"           : "/img/favicon.png",
+      "sizes"         : "600x600",
+      "type"          : "image/png"
+    }
+  ]
+}

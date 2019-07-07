@@ -1,0 +1,69 @@
+global:
+  archives: '文件夹'
+  category: '分类'
+  categories: '分类'
+  index: '主站'
+  pages: '页面'
+  tag: '标签'
+  tags: '标签'
+  years: '按时间分类'
+  busuanzi_views: '有这些人都看过啦: '
+  last_updated: '最后更新于：'
+archive:
+  post: '篇文章'
+  posts: '篇文章'
+  about: '关于'
+  more: '更多'
+  less: '更少'
+posts:
+  posted: '编写时间：'
+  edited: '最后修改时间：'
+  header: '从各种意义上讲，下面的东西可能会很他×邪门'
+  public: '公开'
+  qr_code: "我的二维码"
+  pinned: '置顶'
+  license: '本站许可协议：'
+  permalink: '本页永久链接：'
+  markdown: '本文Markdown：'
+  donate:
+    button: '给我买一杯咖啡叭~'
+    close: '返回'
+  disqus_no_script: '请启用JavaScript以查看<a href="https://disqus.com/?ref_noscript">来自Disqus的评论</a>'
+  pagination:
+    newer: '上一个呀~'
+    older: '下一个嘛~'
+  modified:
+    head: '这篇文章最后修改于'
+    foot: '天之前。'
+    content: '本页内容可能已经过时！'
+  count:
+    words:
+      head: '这里有'
+      foot: '字呀~'
+    time:
+      head: '读完大概需要花费主人的'
+      foot: '分钟呀~'
+search:
+  text: '探索异次元的世界...'
+  explore: '探索'
+  footer: '我是有底线的'
+share_menu:
+  rss: '文章RSS'
+  facebook: '分享到Facebook'
+  googleplus: '你不应该看见这个的'
+  linkedin: '分享到Linkedin'
+  qq: '分享到QQ'
+  telegram: '分享到Telegram'
+  twitter: '分享到Twitter'
+  weibo: '分享到微博'
+userview:
+  contact_me: '和我取得联系'
+  how_to_contact_me: '通过以下方式'
+  close: '返回'
+friends:
+  visit: '参观'
+outdated_browser:
+  title: '你的浏览器是上个世纪的吗？'
+  line_one: '赶紧升级浏览器来访问本站吧！'
+  link: '现在就去'
+  close: '关闭'
