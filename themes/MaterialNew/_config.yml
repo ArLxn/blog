@@ -1,6 +1,6 @@
 ############################### 基本信息 ###############################
 info:
-  name: Material X
+  name: Material X + Hexo
   docs: https://xaoxuu.com/wiki/material-x/
   cdn: # 把对应的那一行注释掉就使用本地的文件
     css:
@@ -66,15 +66,15 @@ cover:
   search_placeholder: '探索异次元的世界'
   # 主页封面菜单
   features:
-    - name: 博文
+    - name: 文章区
       icon: fas fa-rss
       url: /
     - name: 项目
       icon: fas fa-code-branch
       url: https://github.com/arlxn
-    - name: 友链
+    - name: 1701
       icon: fas fa-link
-      url: friends/
+      url: https://1701-Studio.Github.io
       rel: nofollow
     - name: 关于
       icon: fas fa-info-circle
@@ -84,7 +84,7 @@ cover:
 
 # 桌面端导航栏菜单
 menu_desktop:
-  - name: 示例
+  - name: 文章区
     icon: fas fa-grin
     url: /
   - name: 分类
@@ -112,14 +112,14 @@ menu_mobile:
   - name: 开源项目
     icon: fas fa-code-branch
     url: projects/
-  - name: 我的友链
+  - name: 1701-Studio
     icon: fas fa-link
-    url: friends/
+    url: https://1701-Studio.github.io
     rel: nofollow
-  - name: 主题文档
-    icon: fas fa-book
-    url: https://xaoxuu.com/wiki/material-x/
-    rel: nofollow
+  # - name: 主题文档
+    # icon: fas fa-book
+    # url: https://xaoxuu.com/wiki/material-x/
+    # rel: nofollow
   - name: 关于小站
     icon: fas fa-info-circle
     url: about/
@@ -251,8 +251,8 @@ valine:
   # leancloud:
   #   app_id: 你的appId
   #   app_key: 你的appKey
-  guest_info: nick,mail,link #valine comment header info
-  placeholder: 请填写正确的邮箱以收到回复（建议QQ邮箱：你的QQ号@qq.com）。 # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail #valine comment header info
+  placeholder: 请填写正确的邮箱以收到回复（建议QQ邮箱：你的QQ号@qq.com例如1762165046@qq.com）。 # valine comment input placeholder(like: Please leave your footprints )
   avatar: mp # gravatar style https://valine.js.org/avatar
   pageSize: 10 # comment list page size
   verify: true # valine verify code (true/false)
