@@ -1,6 +1,6 @@
 ############################### 基本信息 ###############################
 info:
-  name: Material X + Hexo
+  name: Material X
   docs: https://xaoxuu.com/wiki/material-x/
   cdn: # 把对应的那一行注释掉就使用本地的文件
     css:
@@ -8,7 +8,7 @@ info:
     js:
       app: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/app.js
       search: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/search.js
-      volantis: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/volantis.min.js
+      volantis: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r4/blog/1/volantis.min.js
 
 
 
@@ -53,6 +53,11 @@ backstretch:
     - https://img.vim-cn.com/98/7cedbef18941d69b4e63f75810088b1a392092.jpg
     - https://img.vim-cn.com/f8/073e5d65103fdba6743bc7ec754006124f1a66.jpg
     - https://img.vim-cn.com/ea/9cce743107be6150b55962618eaab2a03bc3dc.jpg
+    - https://i.loli.net/2019/07/16/5d2d8fb7ae8e461210.png
+    - https://i.loli.net/2019/07/16/5d2d9196a8f3520005.png
+    - https://i.loli.net/2019/07/16/5d2d91bbe71e312662.png
+    - https://i.loli.net/2019/07/16/5d2d91d89e82826779.png
+    - https://i.loli.net/2019/07/16/5d2d91ee9d4da31066.png
 
 
 
@@ -66,17 +71,17 @@ cover:
   search_placeholder: '探索异次元的世界'
   # 主页封面菜单
   features:
-    - name: 文章区
+    - name: Root
       icon: fas fa-rss
       url: /
-    - name: 项目
+    - name: Project
       icon: fas fa-code-branch
       url: https://github.com/arlxn
     - name: 1701
       icon: fas fa-link
       url: https://1701-Studio.Github.io
       rel: nofollow
-    - name: 关于
+    - name: About
       icon: fas fa-info-circle
       url: about/
       rel: nofollow
@@ -84,37 +89,41 @@ cover:
 
 # 桌面端导航栏菜单
 menu_desktop:
-  - name: 文章区
-    icon: fas fa-grin
+  - name: 动态
+    icon: far fa-file-code
     url: /
-  - name: 分类
+  - name: 精选
     icon: fas fa-folder-open
-    url: blog/categories/
+    url: blog/mylist/
     rel: nofollow
-  - name: 标签
-    icon: fas fa-hashtag
-    url: blog/tags/
-    rel: nofollow
-  - name: 归档
+  # - name: 
+    # icon: fas fa-hashtag
+    # url: blog/tags/
+    # rel: nofollow
+  - name: 图库
     icon: fas fa-archive
-    url: blog/archives/
+    url: /gallery/gallery.html
     rel: nofollow
 
 # 手机端导航菜单（从右上角的按钮点击展开）
 menu_mobile:
-  - name: 近期文章
+  - name: 最近动向
     icon: fas fa-clock
     url: /
-  - name: 文章归档
-    icon: fas fa-archive
-    url: blog/archives/
+  - name: bilibili
+    icon: far fa-file-video
+    url: https://space.bilibili.com/97206430
     rel: nofollow
-  - name: 开源项目
-    icon: fas fa-code-branch
-    url: projects/
+  - name: Github
+    icon: fab fa-github-square
+    url: https://github.com/arlxn
   - name: 1701-Studio
     icon: fas fa-link
     url: https://1701-Studio.github.io
+    rel: nofollow
+  - name: 友人帐
+    icon: fas fa-link
+    url: friends/
     rel: nofollow
   # - name: 主题文档
     # icon: fas fa-book
@@ -145,23 +154,19 @@ sidebar:
     icon: fas fa-map-signs
     title: 看这里，不迷路
     rows:
-      - name: 近期文章
+      - name: 最近动向
         icon: fas fa-clock
         url: /
-      - name: 文章归档
-        icon: fas fa-archive
-        url: blog/archives/
+      - name: bilibili
+        icon: far fa-file-video
+        url: https://space.bilibili.com/97206430
         rel: nofollow
-      - name: 开源项目
-        icon: fas fa-code-branch
-        url: projects/
-      - name: 我的友链
+      - name: Github
+        icon: fab fa-github-square
+        url: https://github.com/arlxn
+      - name: 友人帐
         icon: fas fa-link
         url: friends/
-        rel: nofollow
-      - name: 主题文档
-        icon: fas fa-book
-        url: https://xaoxuu.com/wiki/material-x/
         rel: nofollow
       - name: 关于小站
         icon: fas fa-info-circle
@@ -209,19 +214,19 @@ social:
 share:
   - id: qq
     name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
+    img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qq.png
   - id: qzone
     name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
+    img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qzone.png
   # - id: qrcode
   #   name: 微信
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
+  #   img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/wechat.png
   - id: weibo
     name: 微博
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
+    img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/weibo.png
   # - id: qrcode
   #   name: QRcode
-  #   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
+  #   img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qrcode.png
 
 
 
@@ -252,11 +257,11 @@ valine:
   #   app_id: 你的appId
   #   app_key: 你的appKey
   guest_info: nick,mail #valine comment header info
-  placeholder: 请填写正确的邮箱以收到回复（建议QQ邮箱：你的QQ号@qq.com例如1762165046@qq.com）。 # valine comment input placeholder(like: Please leave your footprints )
-  avatar: mp # gravatar style https://valine.js.org/avatar
-  pageSize: 10 # comment list page size
-  verify: true # valine verify code (true/false)
-  notify: true # valine mail notify (true/false)
+  placeholder: 请填写正确的邮箱以收到回复（建议使用QQ邮箱：格式为：QQ号+@qq.com。例如：1762165046@qq.com）。 # valine comment input placeholder(like: Please leave your footprints )
+  avatar: mp            # gravatar style https://valine.js.org/avatar
+  pageSize: 10          # comment list page size
+  verify: true          # valine verify code (true/false)
+  notify: true          # valine mail notify (true/false)
   lang: zh-cn
   highlight: true
 

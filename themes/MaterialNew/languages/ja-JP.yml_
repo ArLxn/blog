@@ -1,0 +1,45 @@
+sidebar:
+  category: 商品分類
+  tagcloud: 人気のタグ
+  toc: この記事のディレクトリ
+  related_posts: 関連記事
+post:
+  top: トッピング
+  read_more: 全文を読む
+  sticky: トッピング
+  comments: コメント
+  comments_placeholder: %s コメントシステムを読み込めません。ネットワークにアクセスできることを確認してください。
+  copy_button: コピーする
+  copy_success: コピー成功
+  copy_failure: コピーに失敗しました
+  updated: 最終更新日
+  prev_page: 前のページ
+  next_page: 次のページ
+  copyright:
+    author: この記事の著者
+    link: この記事へのリンク
+    license_title: 著作権について
+    license_content: "このブログのすべての記事は、特に明記しない限り、 %s ライセンス契約を使用しています。 出典を記入してください。"
+footer:
+  license: 'ブログの内容は次のとおりです[署名 - 非営利目的の使用 -  4.0国際共有（CC BY-NC-SA 4.0）契約を共有する同じ方法](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)'
+  use: このサイトは
+  theme: をテーマにしています、[Google Translate](https://translate.google.com)による日本語翻訳
+  total_views: 总访问量为
+  total_visitors: 总访客量
+  times: 次
+search:
+  placeholder: 検索する
+symbol:
+  comma: "，"
+  period: "。"
+  colon: "："
+  brackets_l: "（"
+  brackets_r: "）"
+# 下面这是博主相关的
+navbar:
+  home: 主页
+  blogs: 博客
+  categories: 分类
+  tags: 标签
+  archives: 归档
+  friends: 朋友

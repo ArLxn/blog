@@ -4,9 +4,9 @@
 
 # Site
 title: 泠泫凝的异次元空间
-subtitle: 
-description: 
-keywords:
+subtitle: Subtitle by Lxn
+description: Description by Lxn
+keywords: Lxn
 author: 泠泫凝
 language: 
 - zh-CN
@@ -94,24 +94,25 @@ deploy:
   # repository: https://github.com/ArLxn/ArLxn.github.io.git
   # branch: master
 
-# search:
-  # path: search.json
-  # zipPath: search.zip
-  # versionPath: searchVersion.txt
-  # field: post
+search:
+  path: search.json
+  zipPath: search.zip
+  versionPath: searchVersion.txt
+  field: post
   
-favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@master/1.2/Logo.png
-avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@master/1.2/Logo.png
-# leancloud:
-  # app_id: FaPviMpokcX2ndnQdHytN1v8-gzGzoHsz
-  # app_key: UlWdvASdXH3DRdJtxYuTfS2E
+favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
 
-gitalk: #要使用哪个请复制到根目录配置文件！
-  clientID: 1ff63dbb4bca3d5db27f                           #你的clientID
-  clientSecret: 29afb1d6041238ce63d5755ffef8191f8594567b   #你的clientSecret
-  repo: ArLxn.github.io.git                                #你的repo名
-  owner: ArLxn                                             #你的GitHub名
-  admin: [ArLxn]                                           #至少填写你的GitHub名
+leancloud:
+  app_id: FaPviMpokcX2ndnQdHytN1v8-gzGzoHsz
+  app_key: UlWdvASdXH3DRdJtxYuTfS2E
+
+# gitalk: #要使用哪个请复制到根目录配置文件！
+  # clientID: 1ff63dbb4bca3d5db27f                           #你的clientID
+  # clientSecret: 29afb1d6041238ce63d5755ffef8191f8594567b   #你的clientSecret
+  # repo: ArLxn.github.io.git                                #你的repo名
+  # owner: ArLxn                                             #你的GitHub名
+  # admin: [ArLxn]                                           #至少填写你的GitHub名
  
 live2d:
     enable: true
@@ -120,7 +121,7 @@ live2d:
     use: live2d-widget-model-haruto #模型选择
     display: 
         position: left   #模型位置
-        width: 150       #模型宽度
-        height: 300      #模型高度
+        width: 100       #模型宽度
+        height: 250      #模型高度
     mobile: 
-        show: false      #是否在手机端显示
+        show: true      #是否在手机端显示
