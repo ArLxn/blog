@@ -164,6 +164,9 @@ sidebar:
       - name: Github
         icon: fab fa-github-square
         url: https://github.com/arlxn
+      - name: WPS Pro
+        icon: far fa-file-word
+        url: /Sys/Preload/WPSPro.html
       - name: 友人帐
         icon: fas fa-link
         url: friends/
