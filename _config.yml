@@ -84,7 +84,8 @@ theme: MaterialNew
 # deploy to Coding
 deploy: 
   type: git
-  # https://git.coding.net/<UsrName>/<UsrName>.coding.me.git
+  # repository: https://git.coding.net/<UsrName>/<UsrName>.coding.me.git
+  # repository: https://git.coding.net/ArLxn/ArLxn.coding.me.git
   repository: https://github.com/ArLxn/ArLxn.github.io.git
   branch: master
 # deploy to Github

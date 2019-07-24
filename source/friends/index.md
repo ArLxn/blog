@@ -36,13 +36,13 @@ links:
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
-    - name: 欢迎投稿
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
-      url: https://arlxn.github.io
+    - name: xaoxuu
+      avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+      url: https://xaoxuu.com/
       backgroundColor: '#3E74C9'
       textColor: '#fff'
       tags: 
-      - None
+      - 本站主题作者
 ---
 
 ## 欢迎和我交换友链~
