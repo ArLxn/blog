@@ -1,5 +1,0 @@
-<% if (post.tags && post.tags.length){ %>
-      <% post.tags.forEach(function(tag) { %>
-          <a href="<%= config.root + tag.path %>" class="tag bg-main padding-small"><%= tag.name %></a>
-      <% }); %>
-<% } %>
