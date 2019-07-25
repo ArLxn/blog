@@ -8,7 +8,7 @@ info:
     js:
       app: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/app.js
       search: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/search.js
-      volantis: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r4/blog/1/volantis.min.js
+      volantis: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r13/blog/2/volantis.min.js
 
 
 
@@ -71,17 +71,21 @@ cover:
   search_placeholder: '探索异次元的世界'
   # 主页封面菜单
   features:
-    - name: Root
+    - name: 主站
       icon: fas fa-rss
       url: /
-    - name: Project
+    - name: 项目
       icon: fas fa-code-branch
       url: https://github.com/arlxn
     - name: 1701
       icon: fas fa-link
       url: https://1701-Studio.Github.io
       rel: nofollow
-    - name: About
+    - name: 图库
+      icon: fas fa-images
+      url: Gallery/index.html
+      rel: nofollow
+    - name: 关于我
       icon: fas fa-info-circle
       url: about/
       rel: nofollow

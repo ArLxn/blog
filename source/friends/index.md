@@ -15,7 +15,7 @@ links:
     - name: 墨蓝
       avatar: https://blog.yfblog.xyz/tx.png
       url: https://blog.yfblog.xyz
-      backgroundColor: '#53FF53'
+      backgroundColor: '#3E74C9'
       textColor: '#fff'
       tags: 
       - 一只爱折腾的小小白
@@ -33,6 +33,13 @@ links:
       textColor: '#fff'
       tags: 
       - 你专属的二次元新世界！
+    - name: 流年，谁给过的倾城
+      avatar: https://cdn.jsdelivr.net/gh/yremp/resource@2.0/img/custom/head.jpg
+      url: https://yremp.live
+      backgroundColor: '#00EC00'
+      textColor: '#fff'
+      tags: 
+      - 世界那么大，我想去看看
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
@@ -43,6 +50,7 @@ links:
       textColor: '#fff'
       tags: 
       - 本站主题作者
+      - iOS
 ---
 
 ## 欢迎和我交换友链~
