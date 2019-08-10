@@ -85,6 +85,10 @@ cover:
       icon: fas fa-images
       url: Gallery/index.html
       rel: nofollow
+    - name: 友人帐
+      icon: fas fa-link
+      url: friends/
+      rel: nofollow
     - name: 关于
       icon: fas fa-info-circle
       url: about/
@@ -141,7 +145,7 @@ menu_mobile:
     # icon: fas fa-book
     # url: https://xaoxuu.com/wiki/material-x/
     # rel: nofollow
-  - name: 关于小站
+  - name: 关于
     icon: fas fa-info-circle
     url: about/
     rel: nofollow
@@ -167,16 +171,16 @@ sidebar:
     icon: fas fa-map-signs
     title: 看这里，不迷路
     rows:
-      - name: 最近动向
+      - name: 主页
         icon: fas fa-clock
         url: /
       - name: bilibili
         icon: far fa-file-video
         url: https://space.bilibili.com/97206430
         rel: nofollow
-      - name: Github
+      - name: Git bash 手册
         icon: fab fa-github-square
-        url: https://github.com/arlxn
+        url: /git/index.html
       - name: WPS Pro
         icon: far fa-file-word
         url: /Sys/Preload/WPSPro.html
