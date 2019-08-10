@@ -74,39 +74,47 @@ cover:
     - name: 主站
       icon: fas fa-rss
       url: /
-    - name: 项目
-      icon: fas fa-code-branch
-      url: https://github.com/arlxn
-    - name: 1701
-      icon: fas fa-link
-      url: https://1701-Studio.Github.io
+    # - name: 项目
+      # icon: fas fa-code-branch
+      # url: https://github.com/arlxn
+    - name: 工作室
+      icon: fas fa-archive
+      url: https://trfgs.github.io
       rel: nofollow
     - name: 图库
       icon: fas fa-images
       url: Gallery/index.html
       rel: nofollow
-    - name: 关于我
+    - name: 关于
       icon: fas fa-info-circle
       url: about/
       rel: nofollow
+    # - name: 关于
+      # icon: fas fa-info-circle
+      # url: about/
+      # rel: nofollow
 
 
 # 桌面端导航栏菜单
 menu_desktop:
-  - name: 动态
+  - name: 主站
     icon: far fa-file-code
     url: /
-  - name: 精选
-    icon: fas fa-folder-open
-    url: blog/mylist/
-    rel: nofollow
+  # - name: 精选
+    # icon: fas fa-folder-open
+    # url: blog/mylist/
+    # rel: nofollow
   # - name: 
     # icon: fas fa-hashtag
     # url: blog/tags/
     # rel: nofollow
   - name: 图库
-    icon: fas fa-archive
+    icon: fas fa-images
     url: /gallery/gallery.html
+    rel: nofollow
+  - name: 工作室
+    icon: fas fa-archive
+    url: https://trfgs.github.io
     rel: nofollow
 
 # 手机端导航菜单（从右上角的按钮点击展开）
@@ -152,6 +160,7 @@ body: [article, comments]
 sidebar:
   - widget: author
     avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+    jinrishici: 愿你有一天，能与你最重要的人重逢
     social: true
   - widget: toc
   - widget: grid
