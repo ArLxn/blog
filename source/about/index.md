@@ -3,13 +3,13 @@ layout: page
 title: About Here
 body: [article, grid, comments]
 valine:
-  placeholder: 不许吐槽我2333（当然是开玩笑的啦~）
+  placeholder: 不许吐槽我2333
 sidebar: false
 ---
 
 ## 基本
 
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r7/About.png)
+![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r14/Aboutv2.png)
 
 ## 档案
 
@@ -19,6 +19,8 @@ sidebar: false
 喜欢 ~~唱、跳、Rap、篮球、Music~~ 计算机技术，喜欢看动漫，喜欢冈本信彦，喜欢花泽香菜 ~~、花泽咸菜~~ 。
 
 ~~对HTML5、C、C++、Visual Basic、.NET了解略多~~ 并且还在学习中。
+
+精通Office，擅长Word和PowerPoint。
 
 ## 联系我
 
