@@ -46,9 +46,9 @@ updated_date_format: 'll' # 文章更新日期的格式
 
 # 幻灯片
 backstretch:
-  position: cover  # cover: 封面背景   full: 整个网页背景
+  position: full  # cover: 封面背景   full: 整个网页背景
   duration: 3000  # 持续时间（毫秒）
-  fade: 1300      # 渐变（毫秒）
+  fade: 1700      # 渐变（毫秒）
   images:
     - https://img.vim-cn.com/98/7cedbef18941d69b4e63f75810088b1a392092.jpg
     - https://img.vim-cn.com/f8/073e5d65103fdba6743bc7ec754006124f1a66.jpg
@@ -79,7 +79,7 @@ cover:
       # url: https://github.com/arlxn
     - name: 工作室
       icon: fas fa-archive
-      url: https://trfgs.github.io
+      url: https://trfgs.arlxn.xyz
       rel: nofollow
     - name: 图库
       icon: fas fa-images
