@@ -17,7 +17,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ArLxn.github.io
+url: http://arlxn.xyz
 root: /
 permalink: :category/:title.html
 permalink_defaults:
@@ -81,11 +81,8 @@ theme: MaterialNew
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy to Coding
 deploy: 
   type: git
-  # repository: https://git.coding.net/<UsrName>/<UsrName>.coding.me.git
-  # repository: https://git.coding.net/ArLxn/ArLxn.coding.me.git
   repository: https://github.com/ArLxn/ArLxn.github.io.git
   branch: master
 # deploy to Github
@@ -94,6 +91,22 @@ deploy:
   # #https://github.com/<UsrName>/<UsrName>.github.io.git
   # repository: https://github.com/ArLxn/ArLxn.github.io.git
   # branch: master
+
+  # repository: https://git.coding.net/<UsrName>/<UsrName>.coding.me.git
+  # repository: https://git.coding.net/ArLxn/ArLxn.coding.me.git
+
+# deploy:
+  # type: ftpsync
+  # host: vhost328.cnameaddress.top
+  # # //主机地址
+  # user: webmaster@HA632578
+  # # //用户名
+  # pass: bHRmUDt68GmEtcZT
+  # remote: /web
+  # port: 
+  # ignore: .DS_Store
+  # connections: 
+  # verbose: true 
 
 search:
   path: search.json

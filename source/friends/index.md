@@ -21,7 +21,7 @@ links:
       - 一只爱折腾的小小白
     - name: 青松中学17届01班
       avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r6/1701.png
-      url: https://1701-Studio.github.io
+      url: https://1701.arlxn.xyz
       backgroundColor: '#7FFFD4'
       textColor: '#fff'
       tags: 
