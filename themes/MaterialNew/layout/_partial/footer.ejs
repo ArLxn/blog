@@ -1,7 +1,7 @@
 <footer id="footer" class="clearfix">
   <% if (theme.footer) { %>
     <div class="footer">
-      <%- markdown(theme.footer) %>
+      <p>————————————————喂~ 我可是有底线的！————————————————</p>
     </div>
     <br>
   <%}%>
@@ -20,24 +20,15 @@
   <%}%>
   <br>
   <div><%- markdown(__('footer.license')) %></div>
-  <div>
-    <%- __('footer.use') %>
-    <a href="<%- theme.info.docs %>" target="_blank" class="codename"><%- theme.info.name %></a>
-    <%- __('footer.theme') %>
-    <% if (theme.busuanzi == true) { %>
-      <%- __('symbol.comma') %>
-      <%- __('footer.total_views') %>
-      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
-      <%- __('footer.times') %>
-    <% } %>
-    <%- __('symbol.period') %>
-  </div>
+  <p>本站由泠泫凝制作，由Hexo提供底层服务基础</p>
+  <p>使用Cloudflare和jsDeliver优化站点加载速度</p>
+  <p>Copyright 2019 Lxn, All rights reserved.</p>
 <script>setLoadingBarProgress(80);</script>
-<span id="timeDate">正在载入运行天数请稍后...</span><span id="times">正在载入运行数据请稍后...</span>
+<span id="timeDate">正在载入运行数据（1/2）请稍后...</span><span id="times">正在载入运行数据（2/2）请稍后...</span>
 <script>
     var now = new Date(); 
     function createtime() { 
-        var grt= new Date("05/01/2019 17:00:00");//在此处修改你的建站时间月日年
+        var grt= new Date("05/01/2019 17:00:00");//在此处修改你的建站时间（月-日-年）
         now.setTime(now.getTime()+250); 
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
@@ -45,7 +36,7 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("timeDate").innerHTML = "本站勉强挺过了 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
     } 
 setInterval("createtime()",250);
