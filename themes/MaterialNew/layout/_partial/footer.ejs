@@ -33,11 +33,11 @@
     <%- __('symbol.period') %>
   </div>
 <script>setLoadingBarProgress(80);</script>
-<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<span id="timeDate">正在载入运行天数请稍后...</span><span id="times">正在载入运行数据请稍后...</span>
 <script>
     var now = new Date(); 
     function createtime() { 
-        var grt= new Date("05/01/2019 17:00:00");//在此处修改你的建站时间
+        var grt= new Date("05/01/2019 17:00:00");//在此处修改你的建站时间月日年
         now.setTime(now.getTime()+250); 
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 

@@ -138,7 +138,8 @@ body: [article, comments]
 sidebar:
   - widget: author
     avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
-    jinrishici: 愿你有一天，能与你最重要的人重逢
+    title: Lxn's Area
+    body: 大切な人と再会できる日を
     social: true
   - widget: toc
   - widget: grid

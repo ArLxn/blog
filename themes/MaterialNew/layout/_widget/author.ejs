@@ -5,17 +5,13 @@
         <img class='avatar' src='<%- url_for(item.avatar) %>'/>
       </div>
     <%} %>
-    <% if (item.title || item.body || item.jinrishici) { %>
+    <% if (item.title || item.body) { %>
       <div class='text'>
         <% if (item.title){ %>
           <h2><%- item.title %></h2>
         <% } %>
         <% if (item.body){ %>
           <%- markdown(item.body) %>
-        <% } %>
-        <% if (item.jinrishici){ %>
-          <p><span id="jinrishici-sentence"><%- item.jinrishici != true ? item.jinrishici : config.title %></span></p>
-          <script src="https://baidu.com/error/GenerateErrorForUseYJ" charset="utf-8"></script>
         <% } %>
       </div>
     <% } %>
@@ -54,7 +50,7 @@
         c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
       }
       var l = "",
-      o = ["活下去的意志是最强的力量！", "活的越是绝望，写的词越是温柔 ","说时依旧，有泪如倾", "不敢反抗压迫的心理将伴你一生","可这世间疾苦，照样没放过我","成熟不是人的心变老，是泪在打转还能微笑。","用我一生，换你十年天真无邪。","同步时间为251"].map(function (r) {
+      o = ["有一种谎言，以死亡为真相", "有一种寻花，以永别为代价","有一种毕业，以弑师为证书", "为了每秒五厘米的樱花","我苦等多年","为了两千小时的记忆","我忍痛伴你","为了已被忘却的名字","我苦追千里","得以与你相拥","你却与祭典消散","得以向你求婚","你却被记忆染红","得以对你诉情","你却随雨去向他乡","仅剩下圣诞树下孤独的我","仅剩下夜色中撕碎回忆的我","仅剩下另一个世界怀念的我","这是岸边与潮汐的物语","这是彼方与未来的离合","这是流星与救赎的执着","这是友情与使命的约定"].map(function (r) {
       return r + ""
       }),
       a = 2,

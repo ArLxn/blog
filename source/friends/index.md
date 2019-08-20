@@ -68,6 +68,6 @@ links:
 
 #### 我的友链信息：
 > 名称：泠泫凝的异次元空间
-地址：https://arlxn.github.io
+地址：https://arlxn.xyz
 头像：https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
 描述：先空着2333
