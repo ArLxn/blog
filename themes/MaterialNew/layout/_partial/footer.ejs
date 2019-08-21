@@ -1,7 +1,7 @@
 <footer id="footer" class="clearfix">
   <% if (theme.footer) { %>
     <div class="footer">
-      <p>————————————————喂~ 我可是有底线的！————————————————</p>
+      <p>———————————————— 喂~ 我可是有底线的！ ————————————————</p>
     </div>
     <br>
   <%}%>
@@ -21,14 +21,14 @@
   <br>
   <div><%- markdown(__('footer.license')) %></div>
   <p>本站由泠泫凝制作，由Hexo提供底层服务基础</p>
-  <p>使用Cloudflare和jsDeliver优化站点加载速度</p>
+  <p>使用jsDeliver优化站点加载速度</p>
   <p>Copyright 2019 Lxn, All rights reserved.</p>
 <script>setLoadingBarProgress(80);</script>
 <span id="timeDate">正在载入运行数据（1/2）请稍后...</span><span id="times">正在载入运行数据（2/2）请稍后...</span>
 <script>
     var now = new Date(); 
     function createtime() { 
-        var grt= new Date("05/01/2019 17:00:00");//在此处修改你的建站时间（月-日-年）
+        var grt= new Date("05/01/2019 17:00:00");//建站时间（月-日-年）
         now.setTime(now.getTime()+250); 
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 

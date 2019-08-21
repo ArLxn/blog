@@ -167,11 +167,15 @@ sidebar:
         icon: fas fa-info-circle
         url: about/
         rel: nofollow
-  - widget: category
-    more:
-      icon: fas fa-expand-arrows-alt
-      url: blog/categories/
-      rel: nofollow
+  - widget: plain
+    icon: fa fa-location-arrow
+    title: 让我看看你在哪
+    body: '<fancybox>![](https://ip.ntrqq.net/images/kiminona.png?wd=JUU2JUFDJUEyJUU4JUJGJThFJUU2JTlEJUE1JUU1JTg4JUIwJUU2JTg4JTkxJUU3JTlBJTg0JUU1JUJDJTgyJUU2JUFDJUExJUU1JTg1JTgzJUU3JUE5JUJBJUU5JTk3JUI0JUVGJUJDJTgx&r=52uzpn80juf)</fancybox>'
+  # - widget: category
+    # more:
+      # icon: fas fa-expand-arrows-alt
+      # url: blog/categories/
+      # rel: nofollow
   - widget: music
     icon: fas fa-compact-disc
     title: "background Music"
