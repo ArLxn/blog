@@ -15,6 +15,7 @@ info:
 style: pure          # pure: 导航栏和标题栏背景是白色
 
 ############################### 服务开关 ###############################
+# 卜算子统计已经删了，为了确保配置文件的稳定性因此保留busuanzi参数
 scrollreveal: true
 nodewaves: true
 busuanzi: false
@@ -105,8 +106,6 @@ menu_desktop:
     url: about/
     rel: nofollow
 
-
-
 # 手机端导航菜单（从右上角的按钮点击展开）
 menu_mobile:
   - name: 主页
@@ -170,7 +169,7 @@ sidebar:
   - widget: plain
     icon: fa fa-location-arrow
     title: 让我看看你在哪
-    body: '<fancybox>![](https://ip.ntrqq.net/images/kiminona.png?wd=JUU2JUFDJUEyJUU4JUJGJThFJUU2JTlEJUE1JUU1JTg4JUIwJUU2JTg4JTkxJUU3JTlBJTg0JUU1JUJDJTgyJUU2JUFDJUExJUU1JTg1JTgzJUU3JUE5JUJBJUU5JTk3JUI0JUVGJUJDJTgx&r=52uzpn80juf)</fancybox>'
+    body: '![](https://ip.ntrqq.net/images/kiminona.png?wd=JUU2JUFDJUEyJUU4JUJGJThFJUU2JTlEJUE1JUU1JTg4JUIwJUU2JTg4JTkxJUU3JTlBJTg0JUU1JUJDJTgyJUU2JUFDJUExJUU1JTg1JTgzJUU3JUE5JUJBJUU5JTk3JUI0JUVGJUJDJTgx&r=52uzpn80juf)'
   # - widget: category
     # more:
       # icon: fas fa-expand-arrows-alt
@@ -218,6 +217,7 @@ share:
   #   name: QRcode
   #   img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qrcode.png
 
+# 这个现在已经无效了，在footer.ejs里面改
 footer: '--------------------我是有底线的--------------------'
 
 ############################### 评论系统 ###############################
@@ -232,7 +232,6 @@ footer: '--------------------我是有底线的--------------------'
 # leancloud: 要使用哪个请复制到根目录配置文件！
 #   app_id: 你的appId
 #   app_key: 你的appKey
-
 
 ############################### 杂项，请勿删除 ###############################
 #valine配置

@@ -40,6 +40,13 @@ links:
       textColor: '#fff'
       tags: 
       - 世界那么大，我想去看看
+    - name: 菠萝吹雪
+      avatar:  https://www.yremp.live/images/2019/08/22/TIM201908221901426d72a.jpg
+      url: https://oriheart.top
+      backgroundColor: '#FF5151'
+      textColor: '#fff'
+      tags: 
+      - 努力往前走
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:

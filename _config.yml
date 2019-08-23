@@ -4,9 +4,9 @@
 
 # Site
 title: 泠泫凝的异次元空间
-subtitle: Subtitle by Lxn
-description: Description by Lxn
-keywords: Lxn
+subtitle: Designed by Lxn
+description: Designed by Lxn
+keywords: 泠泫凝
 author: 泠泫凝
 language: 
 - zh-CN
@@ -17,9 +17,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://arlxn.xyz
+url: https://arlxn.xyz
 root: /
-permalink: :category/:title.html
+permalink: :title.html
 permalink_defaults:
 
 # Directory
