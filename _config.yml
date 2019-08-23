@@ -10,9 +10,6 @@ keywords: 泠泫凝
 author: 泠泫凝
 language: 
 - zh-CN
-- en
-- zh-HK
-- zh-TW
 timezone:
 
 # URL
@@ -58,7 +55,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: a
 category_map:
 tag_map:
 
@@ -135,7 +132,7 @@ live2d:
     use: live2d-widget-model-tororo #模型选择
     display: 
         position: right   #模型位置
-        width: 100       #模型宽度
-        height: 250      #模型高度
+        width: 100        #模型宽度
+        height: 250       #模型高度
     mobile: 
-        show: true      #是否在手机端显示
+        show: true        #是否在手机端显示
