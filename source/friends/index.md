@@ -47,6 +47,13 @@ links:
       textColor: '#fff'
       tags: 
       - 努力往前走
+    - name: 喵喵喵~
+      avatar: https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@0.4.0/static/images/favicon.ico
+      url: https://giligili.top/
+      backgroundColor: '#C0C0C0'
+      textColor: '#fff'
+      tags: 
+      - 一只死宅猫-喵~
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
