@@ -1,4 +1,10 @@
 <head>
+  <!-- Personal Blog Designed and Made by Lxn -->
+  <!-- Powered by Hexo and Github Pages -->
+  <!-- head -->
+  <!-- URL: https://ArLxn.xyz -->
+  <!-- QQ: 1762165046 -->
+  <!-- E-Mail: LingXuanNing@Outlook.com -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <%
@@ -65,32 +71,32 @@
     <%- css('style.css') %>
   <% } %>
 
+
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
     }
   </script>
-
-  <% if (config.google_analytics_key) { %>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<%- config.google_analytics_key %>"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '<%- config.google_analytics_key %>');
-    </script>
-  <% } %>
-  <% if (config.baidu_analytics_key) { %>
-    <!-- ba -->
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?<%= config.baidu_analytics_key %>";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-  <% } %>
+  
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-6570924823023491",
+      enable_page_level_ads: true
+    });
+  </script>
+  
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146468554-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-146468554-1');
+  </script>
+  
+  
 </head>

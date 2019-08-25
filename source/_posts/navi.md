@@ -1,98 +1,8 @@
 ---
-layout: links 
 title: 泠泫凝的异次元空间 - 导航
 date: 2019-8-23 16:18:39
-update: 2019-8-23 16:18:55
+update: 2019-8-24 18:45:55
 top: 导航页
-links:
-  - group: 计算机技术专区
-    icon: fa fa-file-text-o
-    items:
-    - name: 使用管理员权限运行批处理
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r21/PageIcon/cmd.png
-      url: /adminrunbat.html
-      backgroundColor: 'rgba(255, 255, 86, 0.7)'
-      textColor: '#fff'
-      tags: 
-      - System
-      - CMD
-    - name: 通过命令行找出占网速的程序
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /netsq.html
-      backgroundColor: 'rgba(255, 127, 0, 0.7)'
-      textColor: '#fff'
-      tags: 
-      - Network
-      - CMD
-    - name: 使用sc在命令行中创建服务
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /sc.html
-      backgroundColor: 'rgba(0.3, 0.7, 0.7, 1)'
-      textColor: '#fff'
-      tags: 
-      - Network
-      - CMD
-  - group: 二次元
-    icon: fa fa-file-text-o
-    items:
-    - name: 图库
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /Gallery.html
-      backgroundColor: 'rgba(0.9, 0.7, 0.4, 0.5)'
-      textColor: '#fff'
-      tags: 
-      - System
-      - CMD
-  - group: 效率办公
-    icon: fa fa-file-text-o
-    items:
-    - name: Outlook 第三方邮件客户端设置
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /outlookmailconfig.html
-      backgroundColor: 'rgba(255, 174, 201, 1)'
-      textColor: '#fff'
-      tags: 
-      - Outlook
-      - 邮箱配置
-    - name: Word单侧装订
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /WordBookPrint.html
-      backgroundColor: 'rgba(255, 174, 201, 1)'
-      textColor: '#fff'
-      tags: 
-      - Office
-      - Word
-    - name: WPS Pro 使用说明
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /WPSPro.html
-      backgroundColor: 'rgba(255, 174, 201, 1)'
-      textColor: '#fff'
-      tags: 
-      - Office
-      - WPS
-  - group: 学习资料
-    icon: fa fa-file-text-o
-    items:
-    - name: 高中政治哲学生活蕴含哲理的古诗词和成语
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /PoliticIdioms.html
-      backgroundColor: 'rgba(255, 174, 201, 1)'
-      textColor: '#fff'
-      tags: 
-      - 高中学习资料
-      - 政治
-  - group: 其他
-    icon: fa fa-file-text-o
-    items:
-    - name: 威风堂堂
-      avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r22/PageIcon/Nor.png
-      url: /ifuudoudou.html
-      backgroundColor: 'rgba(0.8, 0.7, 0.4, 1)'
-      textColor: '#fff'
-      tags: 
-      - 音乐
-      - 歌词
-
 ---
 
 泠泫凝的异次元空间的导航页
@@ -100,4 +10,57 @@ links:
 
 <!-- more -->
 
-本站自2019年8月23日起对站点全面改进，决定抛弃原有Hexo的分类方式，采用导航页对站点整体结构化。
+本站自2019年8月23日起对站点全面改进，决定抛弃原有Hexo的分目录分类方式，采用导航页对站点整体结构化。
+
+---
+## 各大分区参见右侧“本文目录”
+
+---
+## 计算机技术专区
+
+技术文档、说明、教程
+
+  名 称                                                        |   分 类   |   简 介
+:------------------------------------------------------------: | :-------: | :-------:  
+[使用管理员权限运行批处理](https://arlxn.xyz/adminrunbat.html) | System    | N/A
+[通过命令行找出占网速的程序](https://arlxn.xyz//netsq.html)    | Network   | 你可能接了条假宽带
+[使用sc在命令行中创建服务](https://arlxn.xyz//sc.html )        | Services  | 命令行创建服务
+[Windows 7 及以上版本常用优化脚本](https://arlxn.xyz/winuh.html) | Windows | 常用优化脚本
+
+---
+## 二次元
+
+二刺塬诶嘿嘿嘿嘿~ (～￣▽￣)→))*￣▽￣*)o
+
+  名 称   |   分 类   |   简 介
+:-------: | :-------: | :-------: 
+[图库](https://arlxn.xyz//Gallery.html) | Picture | 个人收集的图库
+
+---
+## 效率办公
+
+要有效率的嘛~
+
+  名 称   |   分 类   |   简 介
+:-------: | :-------: | :-------: 
+[Outlook 第三方邮件客户端设置](https://arlxn.xyzoutlookmailconfig.html/) | Outlook | 通用参数
+[Word单侧装订](https://arlxn.xyz/WordBookPrint.html ) | MSO Word | N/A
+[WPS Pro 使用说明](https://arlxn.xyz/WPSPro.html) | WPS | N/A
+
+---
+## 学习资料
+
+嗯对是学习资料
+
+  名 称   |   分 类   |   简 介
+:-------: | :-------: | :-------: 
+[高中政治哲学生活蕴含哲理的古诗词和成语](https://arlxn.xyz/PoliticIdioms.html) | 高中政治学习资料 | N/A
+
+---
+## 其他
+
+无法归类的奇奇怪怪的东西...
+
+  名 称   |   分 类   |   简 介
+:-------: | :-------: | :-------: 
+[威风堂堂](https://arlxn.xyz/ifuudoudou.html) | 歌词 | 233
