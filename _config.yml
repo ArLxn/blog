@@ -105,11 +105,16 @@ deploy:
   # connections: 
   # verbose: true 
 
+# search:
+  # path: search.json
+  # zipPath: search.zip
+  # versionPath: searchVersion.txt
+  # field: post
+  
 search:
-  path: search.json
-  zipPath: search.zip
-  versionPath: searchVersion.txt
+  path: search.xml
   field: post
+  content: true
   
 favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
 avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
