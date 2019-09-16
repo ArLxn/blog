@@ -94,17 +94,28 @@ deploy:
 
 # deploy:
   # type: ftpsync
-  # host: vhost328.cnameaddress.top
+  # host: vhost138.cloudvhost.top
   # # //主机地址
   # user: webmaster@HA632578
   # # //用户名
   # pass: bHRmUDt68GmEtcZT
   # remote: /web
+  # port: 21
+  # ignore: .DS_Store
+  # connections: 1
+  # verbose: false 
+
+# deploy:
+  # type: ftpsync
+  # host: www.b22u.fun
+  # user: www.b22u.fun
+  # pass: Aa05120617
+  # remote: /
   # port: 
   # ignore: .DS_Store
-  # connections: 
+  # connections: 1
   # verbose: true 
-
+  
 # search:
   # path: search.json
   # zipPath: search.zip

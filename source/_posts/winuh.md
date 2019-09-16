@@ -140,3 +140,12 @@ echo 操作完成，按任意键退出
 Pause >NUL
 ```
 
+## 10.清楚图标缓存
+
+``` cmd
+@echo off
+taskkill /f /im explorer.exe
+CD /d %userprofile%\AppData\Local
+DEL IconCache.db /a
+start explorer.exe
+```
