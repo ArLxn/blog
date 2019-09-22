@@ -54,6 +54,34 @@ links:
       textColor: '#fff'
       tags: 
       - 一只死宅猫-喵~
+    - name: 皮皮家园
+      avatar: https://cdn.jsdelivr.net/gh/Zevs6/CDN@3.0/img/avatar.jpg
+      url: https://www.zh66.club
+      backgroundColor: '#C0C0C0'
+      textColor: '#fff'
+      tags: 
+      - 让平凡的一天不再平凡！
+    - name: 咸鱼博客
+      avatar: https://cdn.jsdelivr.net/gh/yydds/cdn@master/logo.png
+      url: https://www.yydds.cc
+      backgroundColor: '#C0C0C0'
+      textColor: '#fff'
+      tags: 
+      - 一个无趣的人
+    - name: Yinux's Blog
+      avatar: https://cdn.jsdelivr.net/gh/InfiniteYinux/cloud@master/avatar/avatar.png
+      url: https://www.codingpy.cn/
+      backgroundColor: '#C0C0C0'
+      textColor: '#fff'
+      tags: 
+      - 理想的生活就是生活的理想
+    - name: 椎咲良田
+      avatar: https://i.loli.net/2019/01/28/5c4eca46c1d0b.png
+      url: https://sanshiliuxiao.top
+      backgroundColor: '#C0C0C0'
+      textColor: '#fff'
+      tags: 
+      - 昨日、今日、明日
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
@@ -69,16 +97,20 @@ links:
 
 ## 欢迎和我交换友链~
 可以[通过QQ联系我](http://wpa.qq.com/msgrd?v=3&uin=1762165046&site=qq&menu=yes)或者在下面留言~
+现在Telegram交流方式也可以使用啦~
+立即点击[我的tg链接](https://t.me/arlxn)和我联系吧！
 ##### 友链提交模板：
 > 名称：【请填入名称，9字以内】
 头像：【请输入地址，支持png、jpg、gif等常见格式】
-地址：【请填入地址，不支持url.cn等短链形式，请以https://或http://开头】
+地址：【请填入地址，不支持url.cn等短链形式，必须以https://或http://或其他协议标准开头】
 描述：【请填入描述，14字以内】
 >>【以下为可选参数，若不提供则使用默认参数或随机参数】
 背景卡片颜色：【形如#3E74C9的颜色代码。默认值为#3E74C9】
 卡片文字颜色：【形如#fff的颜色代码。默认值为#fff】
 >
 >> 其中地址若使用QQ则可在[腾讯推广](https://shang.qq.com/v3/widget.html)中获取，将“复制这段代码并将其粘贴到您的网页上”下面的代码全部复制发给我即可。
+>
+>> 本站现已支持自动拉取LeanCloud数据并自动添加友链（beta 0.9）啦~这个操作通常不会太久，一般来说12小时内都可以完成。若12小时内仍未添加贵站友链至友链页请发送邮件至lingxuanning@Outlook.com反馈。
 
 #### 我的友链信息：
 > 名称：泠泫凝的异次元空间
