@@ -2,11 +2,11 @@
 info:
   cdn: # 把对应的那一行注释掉就使用本地的文件
     css:
-      style: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r16/blog/1/style.css
+      style: http://dl0.arlxn.xyz/CDN/blog/1/style.css
     js:
-      app: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/app.js
-      search: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/blog/1/search.js
-      volantis: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r13/blog/2/volantis.min.js
+      app: http://dl0.arlxn.xyz/CDN/blog/1/app.js
+      search: http://dl0.arlxn.xyz/CDN/blog/1/search.js
+      volantis: http://dl0.arlxn.xyz/CDN/blog/2/volantis.min.js
 
 ############################### 主题风格 ###############################
 # style: material    # material: 导航栏和标题栏背景是主题色
@@ -29,7 +29,7 @@ music:
   autoplay: false   # 自动播放
 
 # 友链页头像占位图
-avatar_placeholder: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+avatar_placeholder: http://dl0.arlxn.xyz/CDN/Logo.png
 
 # 日期格式 http://momentjs.com/docs/
 date_format: 'YYYY-MM-DD' # 文章发布日期的格式
@@ -41,7 +41,7 @@ backstretch:
   duration: 3000  # 持续时间（毫秒）
   fade: 1700      # 渐变（毫秒）
   images:
-    - https://img.vim-cn.com/c8/e6c6b926ac00e474b54e1a02535038dc0abfab.png
+    - http://dl0.arlxn.xyz/CDN/bgp190930.png
 
 ############################### 自定义 ###############################
 # page的封面
@@ -139,7 +139,7 @@ body: [article, comments]
 # 侧边栏小部件，默认按下面给定的顺序全部显示，文章中还可以自定义显示一部分以及顺序
 sidebar:
   - widget: author
-    avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+    avatar: http://dl0.arlxn.xyz/CDN/Logo.png
     title: Lxn's Area
     body: 大切な人と再会できる日を
     social: true
@@ -211,19 +211,19 @@ social:
 share:
   - id: qq
     name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qq.png
+    img: http://dl0.arlxn.xyz/CDN/blog/1/qq.png
   - id: qzone
     name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qzone.png
+    img: http://dl0.arlxn.xyz/CDN/blog/1/qzone.png
   # - id: qrcode
   #   name: 微信
-  #   img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/wechat.png
+  #   img: http://dl0.arlxn.xyz/CDN/blog/1/wechat.png
   - id: weibo
     name: 微博
-    img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/weibo.png
+    img: http://dl0.arlxn.xyz/CDN/blog/1/weibo.png
   # - id: qrcode
   #   name: QRcode
-  #   img: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r5/blog/1/qrcode.png
+  #   img: http://dl0.arlxn.xyz/CDN/blog/1/qrcode.png
 
 # 这个现在已经无效了，在footer.ejs里面改
 footer: '--------------------我是有底线的--------------------'

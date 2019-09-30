@@ -127,8 +127,11 @@ search:
   field: post
   content: true
   
-favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
-avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+# favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+# avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+
+favicon: http://dl0.arlxn.xyz/CDN/Logo.png
+avatar: http://dl0.arlxn.xyz/CDN/Logo.png
 
 leancloud:
   app_id: FaPviMpokcX2ndnQdHytN1v8-gzGzoHsz
