@@ -78,10 +78,10 @@ theme: MaterialNew
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: 
-  type: git
-  repository: https://github.com/ArLxn/ArLxn.github.io.git
-  branch: master
+# deploy: 
+  # type: git
+  # repository: https://github.com/ArLxn/ArLxn.github.io.git
+  # branch: master
 # deploy to Github
 # deploy: 
   # type: git
@@ -94,16 +94,15 @@ deploy:
 
 # deploy:
   # type: ftpsync
-  # host: vhost138.cloudvhost.top
-  # # //主机地址
-  # user: webmaster@HA632578
-  # # //用户名
-  # pass: bHRmUDt68GmEtcZT
-  # remote: /web
+  # host: vhost356.cnameaddress.top
+  # # 主机地址
+  # user: webmaster@HA632686
+  # # 用户名
+  # pass: HOJAJxy4TaYMaSPN
+  # remote: /WEB/
   # port: 21
-  # ignore: .DS_Store
   # connections: 1
-  # verbose: false 
+  # verbose: true
 
 # deploy:
   # type: ftpsync
@@ -127,11 +126,11 @@ search:
   field: post
   content: true
   
-# favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
-# avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+favicon: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
+avatar: https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r2/Logo.png
 
-favicon: http://dl0.arlxn.xyz/CDN/Logo.png
-avatar: http://dl0.arlxn.xyz/CDN/Logo.png
+# favicon: http://dl0.arlxn.xyz/CDN/Logo.png
+# avatar: http://dl0.arlxn.xyz/CDN/Logo.png
 
 leancloud:
   app_id: FaPviMpokcX2ndnQdHytN1v8-gzGzoHsz

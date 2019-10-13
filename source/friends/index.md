@@ -82,6 +82,20 @@ links:
       textColor: '#fff'
       tags: 
       - 昨日、今日、明日
+    - name: RealEye-Blog
+      avatar: https://puui.qpic.cn/fans_admin/0/3_1680187318_1566311276828/0
+      url: https://realeyex.cn
+      backgroundColor: '#1E90FF'
+      textColor: '#FFFFFF'
+      tags: 
+      - NULL
+    - name: 凉风’s Blog
+      avatar:  https://cdn.jsdelivr.net/gh/liangfeng2333/cdn@1.1/custom/avatar.jpg
+      url: https://www.liangfeng.tk
+      backgroundColor: '#1E90FF'
+      textColor: '#FFFFFF'
+      tags: 
+      - 一只小萌新
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
@@ -111,6 +125,7 @@ links:
 >> 其中地址若使用QQ则可在[腾讯推广](https://shang.qq.com/v3/widget.html)中获取，将“复制这段代码并将其粘贴到您的网页上”下面的代码全部复制发给我即可。
 >
 >> 本站现已支持自动拉取LeanCloud数据并自动添加友链（beta 0.9）啦~这个操作通常不会太久，一般来说12小时内都可以完成。若12小时内仍未添加贵站友链至友链页请发送邮件至lingxuanning@Outlook.com反馈。
+>> 来自2019年10月7日的最新消息：现在这个服务的延迟很迷...
 
 #### 我的友链信息：
 > 名称：泠泫凝的异次元空间
