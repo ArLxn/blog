@@ -29,7 +29,7 @@ music:
   autoplay: false   # 自动播放
 
 # 友链页头像占位图
-avatar_placeholder: https://dl0.arlxn.xyz/CDN/Logo.png
+avatar_placeholder: https://mobicoin.ltd/cdn/Logo.png
 
 # 日期格式 http://momentjs.com/docs/
 date_format: 'YYYY-MM-DD' # 文章发布日期的格式
@@ -41,7 +41,7 @@ backstretch:
   duration: 3000  # 持续时间（毫秒）
   fade: 1700      # 渐变（毫秒）
   images:
-    - https://dl0.arlxn.xyz/CDN/bgp190930.png
+    - https://mobicoin.ltd/cdn/bgpMain.png
 
 ############################### 自定义 ###############################
 # page的封面
@@ -97,8 +97,8 @@ menu_desktop:
     url: friends/
     rel: nofollow
   - name: 材料下载
-    icon: fa fa-cloud-download
-    url: paperdl/
+    icon: fas fa-file-download
+    url: /paperdl.html
     rel: nofollow
   - name: 关于
     icon: fas fa-info-circle
@@ -119,7 +119,7 @@ menu_mobile:
     url: feedback/
   - name: 材料下载
     icon: fa fa-cloud-download
-    url: paperdl/
+    url: /paperdl.html
     rel: nofollow
   - name: 关于
     icon: fas fa-info-circle
@@ -139,7 +139,7 @@ body: [article, comments]
 # 侧边栏小部件，默认按下面给定的顺序全部显示，文章中还可以自定义显示一部分以及顺序
 sidebar:
   - widget: author
-    avatar: https://dl0.arlxn.xyz/CDN/Logo.png
+    avatar: https://mobicoin.ltd/cdn/Logo.png
     title: Lxn's Area
     body: 大切な人と再会できる日を
     social: true
@@ -167,8 +167,8 @@ sidebar:
         icon: fa fa-comments
         url: feedback/
       - name: 材料下载
-        icon: fa fa-cloud-download
-        url: paperdl/
+        icon: fas fa-file-download
+        url: /paperdl.html
         rel: nofollow
       - name: 关于小站
         icon: fas fa-info-circle
@@ -211,19 +211,19 @@ social:
 share:
   - id: qq
     name: QQ好友
-    img: https://dl0.arlxn.xyz/CDN/blog/1/qq.png
+    img: https://mobicoin.ltd/cdn/blog/1/qq.png
   - id: qzone
     name: QQ空间
-    img: https://dl0.arlxn.xyz/CDN/blog/1/qzone.png
+    img: https://mobicoin.ltd/cdn/blog/1/qzone.png
   # - id: qrcode
   #   name: 微信
-  #   img: https://dl0.arlxn.xyz/CDN/blog/1/wechat.png
+  #   img: https://mobicoin.ltd/cdn/blog/1/wechat.png
   - id: weibo
     name: 微博
-    img: https://dl0.arlxn.xyz/CDN/blog/1/weibo.png
+    img: https://mobicoin.ltd/cdn/blog/1/weibo.png
   # - id: qrcode
   #   name: QRcode
-  #   img: https://dl0.arlxn.xyz/CDN/blog/1/qrcode.png
+  #   img: https://mobicoin.ltd/cdn/blog/1/qrcode.png
 
 # 这个现在已经无效了，在footer.ejs里面改
 footer: '--------------------我是有底线的--------------------'

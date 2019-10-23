@@ -90,12 +90,19 @@ links:
       tags: 
       - NULL
     - name: 凉风’s Blog
-      avatar:  https://cdn.jsdelivr.net/gh/liangfeng2333/cdn@1.1/custom/avatar.jpg
+      avatar: https://cdn.jsdelivr.net/gh/liangfeng2333/cdn@1.1/custom/avatar.jpg
       url: https://www.liangfeng.tk
       backgroundColor: '#1E90FF'
       textColor: '#FFFFFF'
       tags: 
       - 一只小萌新
+    - name: vamco’s blog
+      avatar: http://i2.tiimg.com/701604/575c0d6fe03a487f.jpg
+      url: http://vamco.club/
+      backgroundColor: '#1E90FF'
+      textColor: '#FFFFFF'
+      tags: 
+      - python&AI学习中，欢迎来找我玩啦~~
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
