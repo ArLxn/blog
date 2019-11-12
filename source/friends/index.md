@@ -103,6 +103,26 @@ links:
       textColor: '#FFFFFF'
       tags: 
       - python&AI学习中，欢迎来找我玩啦~~
+    - name: 林澈思的茶
+      avatar: https://cdn.gxuzf.com/wp-content/uploads/2018/07/cropped-logo%E5%85%83%E7%B4%A0%E9%B9%A4-192x192.png
+      url: https://www.gxuzf.com
+      backgroundColor: '#7FFFD4'
+      textColor: '#fff'
+      tags: 
+      - 互联网资讯分享
+      - 提供网站建设教程
+      - Wordpress博客建设教程
+      - 各类程序语言学习资料
+      - 记录美好生活。
+    - name: 纯洁的V笑
+      avatar: https://hcl233.com/images/icon/icon.png
+      url: https://hcl233.com/
+      backgroundColor: '#C0C0C0'
+      textColor: '#fff'
+      tags: 
+      - java
+      - python
+      - 全栈
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
@@ -114,6 +134,13 @@ links:
       tags: 
       - 本站主题作者
       - iOS
+    - name: 景安IDC
+      avatar: https://libs.zzidc.com/zzidccom/images/common/logo.png
+      url: https://www.zzidc.com
+      backgroundColor: '#3E74C9'
+      textColor: '#fff'
+      tags: 
+      - 本站服务器提供商
 ---
 
 ## 欢迎和我交换友链~
@@ -122,7 +149,7 @@ links:
 立即点击[我的tg链接](https://t.me/arlxn)和我联系吧！
 ##### 友链提交模板：
 > 名称：【请填入名称，9字以内】
-头像：【请输入地址，支持png、jpg、gif等常见格式】
+头像：【请输入地址，支持png、jpg、gif等常见格式，尽可能使用https://链接】
 地址：【请填入地址，不支持url.cn等短链形式，必须以https://或http://或其他协议标准开头】
 描述：【请填入描述，14字以内】
 >>【以下为可选参数，若不提供则使用默认参数或随机参数】
@@ -131,8 +158,8 @@ links:
 >
 >> 其中地址若使用QQ则可在[腾讯推广](https://shang.qq.com/v3/widget.html)中获取，将“复制这段代码并将其粘贴到您的网页上”下面的代码全部复制发给我即可。
 >
->> 本站现已支持自动拉取LeanCloud数据并自动添加友链（beta 0.9）啦~这个操作通常不会太久，一般来说12小时内都可以完成。若12小时内仍未添加贵站友链至友链页请发送邮件至lingxuanning@Outlook.com反馈。
->> 来自2019年10月7日的最新消息：现在这个服务的延迟很迷...
+>> 本站由某高三党制作，友链加入等待时间可能会比较长，敬请谅解。
+如果长时间没有将您的友链加入，欢迎通过各种方式联系我。
 
 #### 我的友链信息：
 > 名称：泠泫凝的异次元空间

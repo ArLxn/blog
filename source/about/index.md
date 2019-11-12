@@ -24,16 +24,16 @@ sidebar: false
 
 ## 联系我
 
-Pic                                                                                 | 方式       | 链接
-:---------------------------------------------------------------------------------: | :--------: | :------------------------------------------------------------------------:
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/net.png)      | 主页       | [泠泫凝的异次元空间](https://arlxn.github.io)
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/qq.png)       | QQ         | [1762165046](http://wpa.qq.com/msgrd?v=3&uin=1762165046&site=qq&menu=yes)
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/mail.png)     | E-Mail     | LingXuanNing@Outlook.com
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/git.png)      | Github     | [ArLxn](https://github.com/arlxn)
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/tg.png)       | Telegram   | [Ar泠泫凝](https://t.me/arlxn)
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/netease.png)  | 网易云音乐 | [泠泫凝](https://music.163.com/#/user/home?id=549062675)
-![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r9/aboutLink/bilibili.png) | bilibili   | [泠泫凝](https://space.bilibili.com/97206430)
+Pic                                                       | 方式       | 链接
+:-------------------------------------------------------: | :--------: | :------------------------------------------------------------------------:
+![](https://mobicoin.ltd/cdn/blog/aboutLink/net.png)      | 主页       | [泠泫凝的异次元空间](https://arlxn.github.io)
+![](https://mobicoin.ltd/cdn/blog/aboutLink/qq.png)       | QQ         | [1762165046](http://wpa.qq.com/msgrd?v=3&uin=1762165046&site=qq&menu=yes)
+![](https://mobicoin.ltd/cdn/blog/aboutLink/mail.png)     | E-Mail     | LingXuanNing@Outlook.com
+![](https://mobicoin.ltd/cdn/blog/aboutLink/git.png)      | Github     | [ArLxn](https://github.com/arlxn)
+![](https://mobicoin.ltd/cdn/blog/aboutLink/tg.png)       | Telegram   | [Ar泠泫凝](https://t.me/arlxn)
+![](https://mobicoin.ltd/cdn/blog/aboutLink/netease.png)  | 网易云音乐 | [泠泫凝](https://music.163.com/#/user/home?id=549062675)
+![](https://mobicoin.ltd/cdn/blog/aboutLink/bilibili.png) | bilibili   | [泠泫凝](https://space.bilibili.com/97206430)
 
 ## 生产环境
 
-<fancybox>![](https://cdn.jsdelivr.net/gh/ArLxn/NingCloud@cdn-site-r10/ProduceEnv.png)</fancybox>
+<fancybox>![](https://mobicoin.ltd/cdn/blog/ProduceEnv.png)</fancybox>
