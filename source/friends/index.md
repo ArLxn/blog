@@ -123,6 +123,13 @@ links:
       - java
       - python
       - 全栈
+    - name: Sakitami的集装箱
+      avatar: https://blog.skihome.xyz/uploads/avatar.jpg
+      url: https://blog.skihome.xyz/
+      backgroundColor: '#66CCFF'
+      textColor: '#FFFFFF'
+      tags: 
+      - 我已经无敌了！
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:

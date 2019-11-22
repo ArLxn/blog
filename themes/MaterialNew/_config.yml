@@ -203,8 +203,10 @@ social:
     url: mailto:LingXuanNing@Outlook.com
   - icon: fab fa-telegram-plane
     url: https://t.me/arlxn
+  - icon: fa fa-twitter
+    url: https://twitter.com/LingXuanNing
   - icon: fas fa-headphones-alt
-    url: https://music.163.com/#/playlist?id=823256880
+    url: https://music.163.com/#/user/home?id=549062675
 
 # 分享按钮
 # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
