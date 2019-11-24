@@ -19,7 +19,9 @@ top: 导航页
 ## 置顶推荐文章
 
 名 称 | 分 类 | 简 介
+:------------------------------------------------------------: | :-------: | :-------:  
 [2019，祖国母亲七十岁生日快乐！](https://arlxn.xyz/2019zgnb.html) | 无 | 无
+[【超详细！】vmWare搭建黑群晖](https://arlxn.xyz/blacksyn.html) | 无 | 无
 
 ## 计算机技术专区
 
@@ -31,6 +33,7 @@ top: 导航页
 [通过命令行找出占网速的程序](https://arlxn.xyz//netsq.html)    | Network   | 你可能接了条假宽带
 [使用sc在命令行中创建服务](https://arlxn.xyz//sc.html )        | Services  | 命令行创建服务
 [Windows 7 及以上版本常用优化脚本](https://arlxn.xyz/winuh.html) | Windows | 常用优化脚本
+[【超详细！】vmWare搭建黑群晖](https://arlxn.xyz/blacksyn.html) | 无 | 无
 
 ---
 ## 二次元
