@@ -96,9 +96,9 @@ menu_desktop:
     icon: fas fa-link
     url: friends/
     rel: nofollow
-  - name: 材料下载
-    icon: fas fa-file-download
-    url: /paperdl.html
+  - name: 自己人
+    icon: fas fa-door-open
+    url: http://nas.arlxn.xyz
     rel: nofollow
   - name: 关于
     icon: fas fa-info-circle
@@ -117,9 +117,9 @@ menu_mobile:
   - name: 反馈
     icon: fa fa-comments
     url: feedback/
-  - name: 材料下载
-    icon: fa fa-cloud-download
-    url: /paperdl.html
+  - name: 自己人
+    icon: fas fa-door-open
+    url: http://nas.arlxn.xyz
     rel: nofollow
   - name: 关于
     icon: fas fa-info-circle
@@ -166,9 +166,9 @@ sidebar:
       - name: 反馈
         icon: fa fa-comments
         url: feedback/
-      - name: 材料下载
-        icon: fas fa-file-download
-        url: /paperdl.html
+      - name: 自己人
+        icon: fas fa-door-open
+        url: http://nas.arlxn.xyz
         rel: nofollow
       - name: 关于小站
         icon: fas fa-info-circle
@@ -185,9 +185,9 @@ sidebar:
       # rel: nofollow
   - widget: music
     icon: fas fa-compact-disc
-    title: "background Music"
+    title: "Music♪~"
     more:
-      icon: far fa-heart
+      icon: fas fa-compact-disc
       url: https://music.163.com/#/playlist?id=823256880
       rel: external nofollow noopener noreferrer
       target: _blank
@@ -203,7 +203,7 @@ social:
     url: mailto:LingXuanNing@Outlook.com
   - icon: fab fa-telegram-plane
     url: https://t.me/arlxn
-  - icon: fa fa-twitter
+  - icon: fab fa-twitter
     url: https://twitter.com/LingXuanNing
   - icon: fas fa-headphones-alt
     url: https://music.163.com/#/user/home?id=549062675
