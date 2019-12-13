@@ -130,6 +130,13 @@ links:
       textColor: '#FFFFFF'
       tags: 
       - 我已经无敌了！
+    - name: A Farm
+      avatar: https://raw.githubusercontent.com/kysosheep/cdn/master/avatar.png
+      url: https://kyso.xyz/
+      backgroundColor: '#8F77B5'
+      textColor: '#FFFFFF'
+      tags: 
+      - 一只没有毛的羊
   - group: 推荐链接区
     icon: fas fa-user-tie
     items:
