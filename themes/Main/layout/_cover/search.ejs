@@ -1,0 +1,70 @@
+<!-- Search Part Start -->
+<% if (theme.cover.logo) { %>
+  <img class='logo' src='<%- url_for(theme.cover.logo) %>'/>
+<% } else { %>
+  <h1 class='title'><%- theme.cover.title ? theme.cover.title : config.title %></h1>
+  
+      <!-- hitokoto - 一言组件 -->
+      <!-- 2020/1/5 15:46 -->
+  	  <p id="hitokoto"> (～￣▽￣)→))*￣▽￣*)o </p>
+      <!-- 现代写法，推荐 -->
+      <!-- 兼容低版本浏览器 (包括 IE) -->
+      <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+      <!--End-->
+      <script>
+        fetch('https://v1.hitokoto.cn?c=a')
+          .then(function (res){
+            return res.json();
+          })
+          .then(function (data) {
+            var hitokoto = document.getElementById('hitokoto');
+            hitokoto.innerText = data.hitokoto; 
+          })
+          .catch(function (err) {
+            console.error(err);
+          })
+      </script>
+      <!-- hitokoto - 一言组件结束 -->
+
+<% } %>
+<% if (theme.search.enable === true) { %>
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <input type="text" class="input u-search-input" placeholder="<%- theme.cover.search_placeholder %>" />
+      <i class="icon fas fa-search fa-fw"></i>
+    </form>
+  </div>
+<% } %>
+<!-- Personal Blog Designed and Made by Lxn -->
+<!-- Powered by Hexo -->
+<!-- Search Part Medium-->
+<!-- URL: https://ArLxn.xyz -->
+<!-- QQ: 1762165046 -->
+<!-- E-Mail: LingXuanNing@Outlook.com -->
+<div class='menu navgation'>
+  <ul class='h-list'>
+    <% if (theme.cover.features) { %>
+      <% (theme.cover.features || []).forEach(function(value){ %>
+        <li>
+          <a class="nav home" href="<%= url_for(value.url) %>"
+            <% if (value.rel) { %>
+              rel="<%- value.rel %>"
+            <% } %>
+            <% if (value.target) { %>
+              target="<%- value.target %>"
+            <% } %>
+            id="<%= url_for(value.url).replace(/\/|%/g, "")?url_for(value.url).replace(/\/|%/g, ""):"home" %>">
+            <i class='<%= value.icon %> fa-fw'></i>&nbsp;<%= __('navbar.'+value.name) == ('navbar.'+value.name) ? value.name : __('navbar.'+value.name) %>
+          </a>
+        </li>
+      <%})%>
+    <% } %>
+  </ul>
+<!-- Personal Blog Designed and Made by Lxn -->
+<!-- Powered by Hexo and Github Pages -->
+<!-- URL: https://ArLxn.xyz -->
+<!-- QQ: 1762165046 -->
+<!-- E-Mail: LingXuanNing@Outlook.com -->
+</div>
+<!-- Search Part End -->
