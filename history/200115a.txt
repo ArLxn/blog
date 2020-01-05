@@ -1,0 +1,576 @@
+[master d3b74a24] 到2020年1月5日已有诸多更改，包括添加一言等
+ 576 files changed, 231 insertions(+), 57124 deletions(-)
+ delete mode 160000 .deploy_git
+ rewrite db.json (87%)
+ create mode 100644 publicHistory/public191231a.tar.gz
+ create mode 100644 publicHistory/public200103a.tar.gz
+ create mode 100644 publicHistory/public200103b.tar.gz
+ create mode 100644 publicHistory/public200105a.tar.gz
+ rename themes/{MaterialNew => Main}/.gitignore (100%)
+ rename themes/{MaterialNew => Main}/LICENSE (100%)
+ rename themes/{MaterialNew => Main}/README.md (100%)
+ rename themes/{MaterialNew => Main}/_config.yml (100%)
+ rename themes/{MaterialNew => Main}/backup/head (100%)
+ rename themes/{MaterialNew => Main}/languages/en.yml (100%)
+ rename themes/{MaterialNew => Main}/languages/ja-JP.yml_ (100%)
+ rename themes/{MaterialNew => Main}/languages/zh-CN.yml (100%)
+ rename themes/{MaterialNew => Main}/languages/zh-HK.yml (100%)
+ rename themes/{MaterialNew => Main}/languages/zh-TW.yml (100%)
+ rename themes/{MaterialNew => Main}/layout/_cover/search.ejs (62%)
+ rename themes/{MaterialNew => Main}/layout/_meta/author.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/categories.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/counter.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/date.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/music.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/share.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/tags.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/thumbnail.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/title.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/top.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_meta/updated.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/archive.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/article.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/categories.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/cover.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/footer.ejs (97%)
+ rename themes/{MaterialNew => Main}/layout/_partial/head.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/header.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/mathjax.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/meta.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/post.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/scripts.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_partial/side.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_third-party/aplayer.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_third-party/clipboard.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_third-party/comments.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_third-party/fancybox.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_third-party/share.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/author.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/card1.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/category.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/grid.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/header.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/list.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/music.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/plain.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/plainsd.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/related_posts.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/tagcloud.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/_widget/toc.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/archive.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/category.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/index.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/layout.ejs (99%)
+ rename themes/{MaterialNew => Main}/layout/links.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/list.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/page.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/post.ejs (100%)
+ rename themes/{MaterialNew => Main}/layout/tag.ejs (100%)
+ rename themes/{MaterialNew => Main}/source/BingSiteAuth.xml (100%)
+ rename themes/{MaterialNew => Main}/source/_CNAME_ (100%)
+ rename themes/{MaterialNew => Main}/source/ads.txt (100%)
+ rename themes/{MaterialNew => Main}/source/bdunion.txt (100%)
+ rename themes/{MaterialNew => Main}/source/fonts/Monaco.ttf (100%)
+ rename themes/{MaterialNew => Main}/source/fonts/Skranji-Regular.ttf (100%)
+ rename themes/{MaterialNew => Main}/source/fonts/Ubuntu-Regular.ttf (100%)
+ rename themes/{MaterialNew => Main}/source/google5d87cd7c1c28a4b7.html (100%)
+ rename themes/{MaterialNew => Main}/source/js/FunnyTitle.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/app.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/click_show_text.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/love.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/search.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/snow.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/snow2.js (100%)
+ rename themes/{MaterialNew => Main}/source/js/volantis.js (100%)
+ rename themes/{MaterialNew => Main}/source/less/_archive.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_article.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_base.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_color.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_defines.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_fonts.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_footer.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_header.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_layout.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_links.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_main.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_normalize.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_pagination.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_search.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_side.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_toc.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_tog.less (100%)
+ rename themes/{MaterialNew => Main}/source/less/_typo.less (100%)
+ rename themes/{MaterialNew => Main}/source/style.less (100%)
+ delete mode 100644 themes/landscape/.gitignore
+ delete mode 100644 themes/landscape/Gruntfile.js
+ delete mode 100644 themes/landscape/LICENSE
+ delete mode 100644 themes/landscape/README.md
+ delete mode 100644 themes/landscape/_config.yml
+ delete mode 100644 themes/landscape/languages/de.yml
+ delete mode 100644 themes/landscape/languages/default.yml
+ delete mode 100644 themes/landscape/languages/es.yml
+ delete mode 100644 themes/landscape/languages/fr.yml
+ delete mode 100644 themes/landscape/languages/ja.yml
+ delete mode 100644 themes/landscape/languages/ko.yml
+ delete mode 100644 themes/landscape/languages/nl.yml
+ delete mode 100644 themes/landscape/languages/no.yml
+ delete mode 100644 themes/landscape/languages/pt.yml
+ delete mode 100644 themes/landscape/languages/ru.yml
+ delete mode 100644 themes/landscape/languages/zh-CN.yml
+ delete mode 100644 themes/landscape/languages/zh-TW.yml
+ delete mode 100644 themes/landscape/layout/_partial/after-footer.ejs
+ delete mode 100644 themes/landscape/layout/_partial/archive-post.ejs
+ delete mode 100644 themes/landscape/layout/_partial/archive.ejs
+ delete mode 100644 themes/landscape/layout/_partial/article.ejs
+ delete mode 100644 themes/landscape/layout/_partial/footer.ejs
+ delete mode 100644 themes/landscape/layout/_partial/gauges-analytics.ejs
+ delete mode 100644 themes/landscape/layout/_partial/google-analytics.ejs
+ delete mode 100644 themes/landscape/layout/_partial/head.ejs
+ delete mode 100644 themes/landscape/layout/_partial/header.ejs
+ delete mode 100644 themes/landscape/layout/_partial/mobile-nav.ejs
+ delete mode 100644 themes/landscape/layout/_partial/post/category.ejs
+ delete mode 100644 themes/landscape/layout/_partial/post/date.ejs
+ delete mode 100644 themes/landscape/layout/_partial/post/gallery.ejs
+ delete mode 100644 themes/landscape/layout/_partial/post/nav.ejs
+ delete mode 100644 themes/landscape/layout/_partial/post/tag.ejs
+ delete mode 100644 themes/landscape/layout/_partial/post/title.ejs
+ delete mode 100644 themes/landscape/layout/_partial/sidebar.ejs
+ delete mode 100644 themes/landscape/layout/_widget/archive.ejs
+ delete mode 100644 themes/landscape/layout/_widget/category.ejs
+ delete mode 100644 themes/landscape/layout/_widget/recent_posts.ejs
+ delete mode 100644 themes/landscape/layout/_widget/tag.ejs
+ delete mode 100644 themes/landscape/layout/_widget/tagcloud.ejs
+ delete mode 100644 themes/landscape/layout/archive.ejs
+ delete mode 100644 themes/landscape/layout/category.ejs
+ delete mode 100644 themes/landscape/layout/index.ejs
+ delete mode 100644 themes/landscape/layout/layout.ejs
+ delete mode 100644 themes/landscape/layout/page.ejs
+ delete mode 100644 themes/landscape/layout/post.ejs
+ delete mode 100644 themes/landscape/layout/tag.ejs
+ delete mode 100644 themes/landscape/package.json
+ delete mode 100644 themes/landscape/scripts/fancybox.js
+ delete mode 100644 themes/landscape/source/css/_extend.styl
+ delete mode 100644 themes/landscape/source/css/_partial/archive.styl
+ delete mode 100644 themes/landscape/source/css/_partial/article.styl
+ delete mode 100644 themes/landscape/source/css/_partial/comment.styl
+ delete mode 100644 themes/landscape/source/css/_partial/footer.styl
+ delete mode 100644 themes/landscape/source/css/_partial/header.styl
+ delete mode 100644 themes/landscape/source/css/_partial/highlight.styl
+ delete mode 100644 themes/landscape/source/css/_partial/mobile.styl
+ delete mode 100644 themes/landscape/source/css/_partial/sidebar-aside.styl
+ delete mode 100644 themes/landscape/source/css/_partial/sidebar-bottom.styl
+ delete mode 100644 themes/landscape/source/css/_partial/sidebar.styl
+ delete mode 100644 themes/landscape/source/css/_util/grid.styl
+ delete mode 100644 themes/landscape/source/css/_util/mixin.styl
+ delete mode 100644 themes/landscape/source/css/_variables.styl
+ delete mode 100644 themes/landscape/source/css/fonts/FontAwesome.otf
+ delete mode 100644 themes/landscape/source/css/fonts/fontawesome-webfont.eot
+ delete mode 100644 themes/landscape/source/css/fonts/fontawesome-webfont.svg
+ delete mode 100644 themes/landscape/source/css/fonts/fontawesome-webfont.ttf
+ delete mode 100644 themes/landscape/source/css/fonts/fontawesome-webfont.woff
+ delete mode 100644 themes/landscape/source/css/images/banner.jpg
+ delete mode 100644 themes/landscape/source/css/style.styl
+ delete mode 100644 themes/landscape/source/fancybox/blank.gif
+ delete mode 100644 themes/landscape/source/fancybox/fancybox_loading.gif
+ delete mode 100644 themes/landscape/source/fancybox/fancybox_loading@2x.gif
+ delete mode 100644 themes/landscape/source/fancybox/fancybox_overlay.png
+ delete mode 100644 themes/landscape/source/fancybox/fancybox_sprite.png
+ delete mode 100644 themes/landscape/source/fancybox/fancybox_sprite@2x.png
+ delete mode 100644 themes/landscape/source/fancybox/helpers/fancybox_buttons.png
+ delete mode 100644 themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css
+ delete mode 100644 themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js
+ delete mode 100644 themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js
+ delete mode 100644 themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css
+ delete mode 100644 themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js
+ delete mode 100644 themes/landscape/source/fancybox/jquery.fancybox.css
+ delete mode 100644 themes/landscape/source/fancybox/jquery.fancybox.js
+ delete mode 100644 themes/landscape/source/fancybox/jquery.fancybox.pack.js
+ delete mode 100644 themes/landscape/source/js/script.js
+ delete mode 100644 themes/m3/.gitignore
+ delete mode 100644 themes/m3/.travis.yml
+ delete mode 100644 themes/m3/LICENSE
+ delete mode 100644 themes/m3/README.md
+ delete mode 100644 themes/m3/_config.yml
+ delete mode 100644 themes/m3/docs/.nojekyll
+ delete mode 100644 themes/m3/docs/README.md
+ delete mode 100644 themes/m3/docs/_coverpage.md
+ delete mode 100644 themes/m3/docs/_navbar.md
+ delete mode 100644 themes/m3/docs/_sidebar.md
+ delete mode 100644 themes/m3/docs/advanced.md
+ delete mode 100644 themes/m3/docs/config.md
+ delete mode 100644 themes/m3/docs/custom_pages.md
+ delete mode 100644 themes/m3/docs/donate.md
+ delete mode 100644 themes/m3/docs/images/wap.png
+ delete mode 100644 themes/m3/docs/index.html
+ delete mode 100644 themes/m3/docs/install.md
+ delete mode 100644 themes/m3/docs/issues.md
+ delete mode 100644 themes/m3/docs/other.md
+ delete mode 100644 themes/m3/docs/plugins.md
+ delete mode 100644 themes/m3/docs/vendors.md
+ delete mode 100644 themes/m3/docs/zh-cn/README.md
+ delete mode 100644 themes/m3/docs/zh-cn/_navbar.md
+ delete mode 100644 themes/m3/docs/zh-cn/_sidebar.md
+ delete mode 100644 themes/m3/docs/zh-cn/advanced.md
+ delete mode 100644 themes/m3/docs/zh-cn/config.md
+ delete mode 100644 themes/m3/docs/zh-cn/custom_pages.md
+ delete mode 100644 themes/m3/docs/zh-cn/donate.md
+ delete mode 100644 themes/m3/docs/zh-cn/install.md
+ delete mode 100644 themes/m3/docs/zh-cn/issues.md
+ delete mode 100644 themes/m3/docs/zh-cn/other.md
+ delete mode 100644 themes/m3/docs/zh-cn/plugins.md
+ delete mode 100644 themes/m3/docs/zh-cn/vendors.md
+ delete mode 100644 themes/m3/languages/en-us.yml
+ delete mode 100644 themes/m3/languages/ja-JP.yml
+ delete mode 100644 themes/m3/languages/zh-CN.yml
+ delete mode 100644 themes/m3/layout/_judge/accent_color_hex.ejs
+ delete mode 100644 themes/m3/layout/_judge/primary_color_hex.ejs
+ delete mode 100644 themes/m3/layout/_partials/appbar.ejs
+ delete mode 100644 themes/m3/layout/_partials/appbar/now.ejs
+ delete mode 100644 themes/m3/layout/_partials/appbar/plus.ejs
+ delete mode 100644 themes/m3/layout/_partials/archives/index.ejs
+ delete mode 100644 themes/m3/layout/_partials/archives/side_content.ejs
+ delete mode 100644 themes/m3/layout/_partials/body/now.ejs
+ delete mode 100644 themes/m3/layout/_partials/body/plus.ejs
+ delete mode 100644 themes/m3/layout/_partials/comment.ejs
+ delete mode 100644 themes/m3/layout/_partials/dialogs.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/footer.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/now.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/now/content.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/now/head.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/plus.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/plus/content.ejs
+ delete mode 100644 themes/m3/layout/_partials/drawer/plus/head.ejs
+ delete mode 100644 themes/m3/layout/_partials/fab/index.ejs
+ delete mode 100644 themes/m3/layout/_partials/fab/post.ejs
+ delete mode 100644 themes/m3/layout/_partials/head.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/content_warning.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/donte_judge.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/notification.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/now/appbar.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/now/appbar_search.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/now/index_search.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/outdatedbrowswe.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/plus/list.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/post_lg.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/styleChanging.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/to_top.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/js/toc.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/now.ejs
+ delete mode 100644 themes/m3/layout/_partials/import_js/plus.ejs
+ delete mode 100644 themes/m3/layout/_partials/index/now.ejs
+ delete mode 100644 themes/m3/layout/_partials/index/plus.ejs
+ delete mode 100644 themes/m3/layout/_partials/index/plus_posts.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/index_more.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/index_share.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/page_share.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/post_share.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/qrcode.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/toc.ejs
+ delete mode 100644 themes/m3/layout/_partials/menu/userview.ejs
+ delete mode 100644 themes/m3/layout/_partials/pagination/index.ejs
+ delete mode 100644 themes/m3/layout/_partials/pagination/post.ejs
+ delete mode 100644 themes/m3/layout/_partials/posts.ejs
+ delete mode 100644 themes/m3/layout/_partials/posts/now.ejs
+ delete mode 100644 themes/m3/layout/_partials/posts/plus.ejs
+ delete mode 100644 themes/m3/layout/_widget/dialog_aboutme.ejs
+ delete mode 100644 themes/m3/layout/_widget/js/dialog_galleries.ejs
+ delete mode 100644 themes/m3/layout/_widget/js/page_galleries.ejs
+ delete mode 100644 themes/m3/layout/_widget/js/page_gallery.ejs
+ delete mode 100644 themes/m3/layout/_widget/js/search/now.ejs
+ delete mode 100644 themes/m3/layout/_widget/js/search/plus.ejs
+ delete mode 100644 themes/m3/layout/_widget/page_friends.ejs
+ delete mode 100644 themes/m3/layout/_widget/page_galleries.ejs
+ delete mode 100644 themes/m3/layout/_widget/page_gallery.ejs
+ delete mode 100644 themes/m3/layout/_widget/post_mathjax.ejs
+ delete mode 100644 themes/m3/layout/archive.ejs
+ delete mode 100644 themes/m3/layout/category.ejs
+ delete mode 100644 themes/m3/layout/index.ejs
+ delete mode 100644 themes/m3/layout/layout.ejs
+ delete mode 100644 themes/m3/layout/page.ejs
+ delete mode 100644 themes/m3/layout/post.ejs
+ delete mode 100644 themes/m3/layout/search.ejs
+ delete mode 100644 themes/m3/layout/tag.ejs
+ delete mode 100644 themes/m3/package.json
+ delete mode 100644 themes/m3/release.sh
+ delete mode 100644 themes/m3/scripts/helper.js
+ delete mode 100644 themes/m3/scripts/lib/code_highlight.js
+ delete mode 100644 themes/m3/scripts/lib/custom_toc.js
+ delete mode 100644 themes/m3/scripts/lib/export_md.js
+ delete mode 100644 themes/m3/scripts/lib/ls/css_lsload.js
+ delete mode 100644 themes/m3/scripts/lib/ls/get_file_hex.js
+ delete mode 100644 themes/m3/scripts/lib/ls/js_lsload.js
+ delete mode 100644 themes/m3/scripts/lib/ls/path_for.js
+ delete mode 100644 themes/m3/scripts/lib/table.js
+ delete mode 100644 themes/m3/source/css/_files/core/animate.css
+ delete mode 100644 themes/m3/source/css/_files/core/font-awesome.css
+ delete mode 100644 themes/m3/source/css/_files/core/mdui.custom.css
+ delete mode 100644 themes/m3/source/css/_files/core/outdatedbrowser.css
+ delete mode 100644 themes/m3/source/css/_files/fonts.css
+ delete mode 100644 themes/m3/source/css/_files/lightgallery/lg-rewrite.css
+ delete mode 100644 themes/m3/source/css/_files/lightgallery/lg-transitions.css
+ delete mode 100644 themes/m3/source/css/_files/lightgallery/lightgallery.css
+ delete mode 100644 themes/m3/source/css/_files/now/appbar.css
+ delete mode 100644 themes/m3/source/css/_files/now/drawer.css
+ delete mode 100644 themes/m3/source/css/_files/now/global.css
+ delete mode 100644 themes/m3/source/css/_files/now/index.css
+ delete mode 100644 themes/m3/source/css/_files/now/post.css
+ delete mode 100644 themes/m3/source/css/_files/now/posts.css
+ delete mode 100644 themes/m3/source/css/_files/now/side_content.css
+ delete mode 100644 themes/m3/source/css/_files/pages/friends.css
+ delete mode 100644 themes/m3/source/css/_files/pages/galleries.css
+ delete mode 100644 themes/m3/source/css/_files/pages/gallery.css
+ delete mode 100644 themes/m3/source/css/_files/plus/appbar.css
+ delete mode 100644 themes/m3/source/css/_files/plus/drawer.css
+ delete mode 100644 themes/m3/source/css/_files/plus/global.css
+ delete mode 100644 themes/m3/source/css/_files/plus/index.css
+ delete mode 100644 themes/m3/source/css/_files/plus/post.css
+ delete mode 100644 themes/m3/source/css/_files/plus/search.css
+ delete mode 100644 themes/m3/source/css/_files/plus/side_content.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/coy.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/dark.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/default.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/funky.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/line-number.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/okaidia.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/solarizedlight.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/tomorrow.css
+ delete mode 100644 themes/m3/source/css/_files/prism-themes/twilight.css
+ delete mode 100644 themes/m3/source/css/_files/shared/aboutme_dialog.css
+ delete mode 100644 themes/m3/source/css/_files/shared/archives.css
+ delete mode 100644 themes/m3/source/css/fonts.min.css
+ delete mode 100644 themes/m3/source/css/src/lightgallery.min.css
+ delete mode 100644 themes/m3/source/css/src/now/post.min.css
+ delete mode 100644 themes/m3/source/css/src/now/side_content.min.css
+ delete mode 100644 themes/m3/source/css/src/pages/friends.min.css
+ delete mode 100644 themes/m3/source/css/src/pages/galleries.min.css
+ delete mode 100644 themes/m3/source/css/src/pages/gallery.min.css
+ delete mode 100644 themes/m3/source/css/src/plus/index.min.css
+ delete mode 100644 themes/m3/source/css/src/plus/post.min.css
+ delete mode 100644 themes/m3/source/css/src/plus/search.min.css
+ delete mode 100644 themes/m3/source/css/src/plus/side_content.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/coy.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/dark.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/default.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/funky.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/line-number.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/okaidia.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/solarizedlight.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/tomorrow.min.css
+ delete mode 100644 themes/m3/source/css/src/prism-themes/twilight.min.css
+ delete mode 100644 themes/m3/source/css/src/shared/aboutme_dialog.min.css
+ delete mode 100644 themes/m3/source/css/src/shared/archives.min.css
+ delete mode 100644 themes/m3/source/css/style-now.min.css
+ delete mode 100644 themes/m3/source/css/style-plus.min.css
+ delete mode 100644 themes/m3/source/fonts/FontAwesome.otf
+ delete mode 100644 themes/m3/source/fonts/fontawesome-webfont.eot
+ delete mode 100644 themes/m3/source/fonts/fontawesome-webfont.svg
+ delete mode 100644 themes/m3/source/fonts/fontawesome-webfont.ttf
+ delete mode 100644 themes/m3/source/fonts/fontawesome-webfont.woff
+ delete mode 100644 themes/m3/source/fonts/fontawesome-webfont.woff2
+ delete mode 100644 themes/m3/source/icons/material-icons/LICENSE.txt
+ delete mode 100644 themes/m3/source/icons/material-icons/MaterialIcons-Regular.ijmap
+ delete mode 100644 themes/m3/source/icons/material-icons/MaterialIcons-Regular.woff
+ delete mode 100644 themes/m3/source/icons/material-icons/MaterialIcons-Regular.woff2
+ delete mode 100644 themes/m3/source/img/Lxn.png
+ delete mode 100644 themes/m3/source/img/QQPayPic.png
+ delete mode 100644 themes/m3/source/img/WechatPayPic.png
+ delete mode 100644 themes/m3/source/img/bg.png
+ delete mode 100644 themes/m3/source/img/favicon.png
+ delete mode 100644 themes/m3/source/img/gk.png
+ delete mode 100644 themes/m3/source/img/gkgray.png
+ delete mode 100644 themes/m3/source/img/loading.gif
+ delete mode 100644 themes/m3/source/img/random/picHD_1.png
+ delete mode 100644 themes/m3/source/img/random/picHD_10.png
+ delete mode 100644 themes/m3/source/img/random/picHD_11.png
+ delete mode 100644 themes/m3/source/img/random/picHD_12.png
+ delete mode 100644 themes/m3/source/img/random/picHD_13.png
+ delete mode 100644 themes/m3/source/img/random/picHD_14.png
+ delete mode 100644 themes/m3/source/img/random/picHD_15.png
+ delete mode 100644 themes/m3/source/img/random/picHD_16.png
+ delete mode 100644 themes/m3/source/img/random/picHD_17.png
+ delete mode 100644 themes/m3/source/img/random/picHD_18.png
+ delete mode 100644 themes/m3/source/img/random/picHD_19.png
+ delete mode 100644 themes/m3/source/img/random/picHD_2.png
+ delete mode 100644 themes/m3/source/img/random/picHD_20.png
+ delete mode 100644 themes/m3/source/img/random/picHD_21.png
+ delete mode 100644 themes/m3/source/img/random/picHD_22.png
+ delete mode 100644 themes/m3/source/img/random/picHD_23.png
+ delete mode 100644 themes/m3/source/img/random/picHD_24.png
+ delete mode 100644 themes/m3/source/img/random/picHD_25.png
+ delete mode 100644 themes/m3/source/img/random/picHD_26.png
+ delete mode 100644 themes/m3/source/img/random/picHD_27.png
+ delete mode 100644 themes/m3/source/img/random/picHD_28.png
+ delete mode 100644 themes/m3/source/img/random/picHD_29.png
+ delete mode 100644 themes/m3/source/img/random/picHD_3.png
+ delete mode 100644 themes/m3/source/img/random/picHD_30.png
+ delete mode 100644 themes/m3/source/img/random/picHD_31.png
+ delete mode 100644 themes/m3/source/img/random/picHD_32.png
+ delete mode 100644 themes/m3/source/img/random/picHD_33.png
+ delete mode 100644 themes/m3/source/img/random/picHD_34.png
+ delete mode 100644 themes/m3/source/img/random/picHD_35.png
+ delete mode 100644 themes/m3/source/img/random/picHD_36.png
+ delete mode 100644 themes/m3/source/img/random/picHD_37.png
+ delete mode 100644 themes/m3/source/img/random/picHD_38.png
+ delete mode 100644 themes/m3/source/img/random/picHD_39.png
+ delete mode 100644 themes/m3/source/img/random/picHD_4.png
+ delete mode 100644 themes/m3/source/img/random/picHD_40.png
+ delete mode 100644 themes/m3/source/img/random/picHD_41.png
+ delete mode 100644 themes/m3/source/img/random/picHD_42.png
+ delete mode 100644 themes/m3/source/img/random/picHD_43.png
+ delete mode 100644 themes/m3/source/img/random/picHD_44.png
+ delete mode 100644 themes/m3/source/img/random/picHD_5.png
+ delete mode 100644 themes/m3/source/img/random/picHD_6.png
+ delete mode 100644 themes/m3/source/img/random/picHD_7.png
+ delete mode 100644 themes/m3/source/img/random/picHD_8.png
+ delete mode 100644 themes/m3/source/img/random/picHD_9.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_1.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_10.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_11.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_12.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_13.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_14.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_15.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_16.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_17.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_18.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_19.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_2.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_20.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_21.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_22.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_23.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_24.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_25.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_26.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_27.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_28.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_29.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_3.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_30.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_31.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_32.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_33.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_34.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_35.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_36.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_37.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_38.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_39.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_4.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_40.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_41.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_42.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_43.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_44.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_5.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_6.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_7.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_8.png
+ delete mode 100644 themes/m3/source/img/random_/picHD_9.png
+ delete mode 100644 themes/m3/source/img/sidebar_header.png
+ delete mode 100644 themes/m3/source/img/video-play.png
+ delete mode 100644 themes/m3/source/img/vimeo-play.png
+ delete mode 100644 themes/m3/source/img/youtube-play.png
+ delete mode 100644 themes/m3/source/js/_files/es6-promise.js
+ delete mode 100644 themes/m3/source/js/_files/fetch.js
+ delete mode 100644 themes/m3/source/js/_files/js.js
+ delete mode 100644 themes/m3/source/js/_files/lg-autoplay.js
+ delete mode 100644 themes/m3/source/js/_files/lg-fullscreen.js
+ delete mode 100644 themes/m3/source/js/_files/lg-hash.js
+ delete mode 100644 themes/m3/source/js/_files/lg-zoom.js
+ delete mode 100644 themes/m3/source/js/_files/lightgallery.js
+ delete mode 100644 themes/m3/source/js/_files/ls.js
+ delete mode 100644 themes/m3/source/js/_files/mdui.custom.js
+ delete mode 100644 themes/m3/source/js/_files/smooth-scroll.js
+ delete mode 100644 themes/m3/source/js/js.min.js
+ delete mode 100644 themes/m3/source/js/lightgallery.min.js
+ delete mode 100644 themes/m3/source/js/ls.min.js
+ delete mode 100644 themes/m3/source/js/outdatedbrowser.min.js
+ delete mode 100644 themes/m3/source/js/pace.min.js
+ delete mode 100644 themes/m3/source/manifest.json
+ delete mode 100644 themes/m3/source/notification.json
+ delete mode 100644 themes/m3/source/offline.svg
+ delete mode 100644 themes/m3/source/sw.js
+ delete mode 100644 themes/material-x0811/.gitignore
+ delete mode 100644 themes/material-x0811/LICENSE
+ delete mode 100644 themes/material-x0811/README.md
+ delete mode 100644 themes/material-x0811/_config.yml
+ delete mode 100644 themes/material-x0811/languages/en.yml
+ delete mode 100644 themes/material-x0811/languages/zh-CN.yml
+ delete mode 100644 themes/material-x0811/languages/zh-HK.yml
+ delete mode 100644 themes/material-x0811/languages/zh-TW.yml
+ delete mode 100644 themes/material-x0811/layout/_cover/search.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/author.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/categories.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/counter.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/date.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/music.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/share.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/tags.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/thumbnail.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/title.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/top.ejs
+ delete mode 100644 themes/material-x0811/layout/_meta/updated.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/archive.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/article.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/categories.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/cover.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/footer.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/head.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/header.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/mathjax.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/meta.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/post.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/scripts.ejs
+ delete mode 100644 themes/material-x0811/layout/_partial/side.ejs
+ delete mode 100644 themes/material-x0811/layout/_third-party/aplayer.ejs
+ delete mode 100644 themes/material-x0811/layout/_third-party/clipboard.ejs
+ delete mode 100644 themes/material-x0811/layout/_third-party/comments.ejs
+ delete mode 100644 themes/material-x0811/layout/_third-party/fancybox.ejs
+ delete mode 100644 themes/material-x0811/layout/_third-party/share.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/author.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/category.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/grid.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/header.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/list.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/music.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/plain.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/related_posts.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/tagcloud.ejs
+ delete mode 100644 themes/material-x0811/layout/_widget/toc.ejs
+ delete mode 100644 themes/material-x0811/layout/archive.ejs
+ delete mode 100644 themes/material-x0811/layout/category.ejs
+ delete mode 100644 themes/material-x0811/layout/index.ejs
+ delete mode 100644 themes/material-x0811/layout/layout.ejs
+ delete mode 100644 themes/material-x0811/layout/links.ejs
+ delete mode 100644 themes/material-x0811/layout/list.ejs
+ delete mode 100644 themes/material-x0811/layout/page.ejs
+ delete mode 100644 themes/material-x0811/layout/post.ejs
+ delete mode 100644 themes/material-x0811/layout/tag.ejs
+ delete mode 100644 themes/material-x0811/source/fonts/Monaco.ttf
+ delete mode 100644 themes/material-x0811/source/fonts/Skranji-Regular.ttf
+ delete mode 100644 themes/material-x0811/source/fonts/Ubuntu-Regular.ttf
+ delete mode 100644 themes/material-x0811/source/js/app.js
+ delete mode 100644 themes/material-x0811/source/js/search.js
+ delete mode 100644 themes/material-x0811/source/js/volantis.js
+ delete mode 100644 themes/material-x0811/source/less/_archive.less
+ delete mode 100644 themes/material-x0811/source/less/_article.less
+ delete mode 100644 themes/material-x0811/source/less/_base.less
+ delete mode 100644 themes/material-x0811/source/less/_color.less
+ delete mode 100644 themes/material-x0811/source/less/_defines.less
+ delete mode 100644 themes/material-x0811/source/less/_fonts.less
+ delete mode 100644 themes/material-x0811/source/less/_footer.less
+ delete mode 100644 themes/material-x0811/source/less/_header.less
+ delete mode 100644 themes/material-x0811/source/less/_layout.less
+ delete mode 100644 themes/material-x0811/source/less/_links.less
+ delete mode 100644 themes/material-x0811/source/less/_main.less
+ delete mode 100644 themes/material-x0811/source/less/_normalize.less
+ delete mode 100644 themes/material-x0811/source/less/_pagination.less
+ delete mode 100644 themes/material-x0811/source/less/_search.less
+ delete mode 100644 themes/material-x0811/source/less/_side.less
+ delete mode 100644 themes/material-x0811/source/less/_toc.less
+ delete mode 100644 themes/material-x0811/source/less/_tog.less
+ delete mode 100644 themes/material-x0811/source/less/_typo.less
+ delete mode 100644 themes/material-x0811/source/style.less
